@@ -90,3 +90,7 @@
 2026-08-16 16:21:25.772 [info] [Review+1] No matching pull request metadata found locally for current branch main
 2026-08-16 16:21:25.799 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
 2026-08-16 16:21:26.862 [info] [Review+1] Polling found no change. Backing off to 600s.
+2026-08-16 16:24:24.791 [info] [Review+0] Skipping poll: window is not focused
+2026-08-16 16:31:26.862 [info] [Review+1] Skipping poll: window is not focused
+2026-08-16 16:32:08.372 [info] [Review+1] Skipping poll: window is not focused
+2026-08-16 16:32:23.212 [info] [Review+0] Skipping poll: window is not focused
