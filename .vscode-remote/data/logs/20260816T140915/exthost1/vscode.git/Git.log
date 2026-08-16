@@ -1,0 +1,69 @@
+2026-08-16 14:10:15.539 [info] [main] Log level: Info
+2026-08-16 14:10:15.539 [info] [main] Validating found git in: "git"
+2026-08-16 14:10:15.539 [info] [main] Using git "2.53.0" from "git"
+2026-08-16 14:10:15.539 [info] [Model][doInitialScan] Initial repository scan started
+2026-08-16 14:10:15.539 [info] > git rev-parse --show-toplevel [21ms]
+2026-08-16 14:10:15.539 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2026-08-16 14:10:15.539 [info] [Model][openRepository] Opened repository (path): /workspaces/AQUA
+2026-08-16 14:10:15.539 [info] [Model][openRepository] Opened repository (real path): /workspaces/AQUA
+2026-08-16 14:10:15.539 [info] [Model][openRepository] Opened repository (kind): repository
+2026-08-16 14:10:15.539 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-08-16 14:10:15.539 [info] > git config --get --local core.virtualfilesystem [9ms]
+2026-08-16 14:10:15.539 [warning] [Git][config] git config failed: Failed to execute git
+2026-08-16 14:10:15.539 [info] > git config --get commit.template [2ms]
+2026-08-16 14:10:15.541 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-08-16 14:10:15.547 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/AQUA/.git/refs/remotes/origin/main'
+2026-08-16 14:10:15.548 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-08-16 14:10:15.558 [info] > git status -z -uall [6ms]
+2026-08-16 14:10:15.560 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-08-16 14:10:15.586 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2026-08-16 14:10:15.592 [info] > git config --get commit.template [7ms]
+2026-08-16 14:10:15.597 [info] > git config --get --local branch.main.vscode-merge-base [6ms]
+2026-08-16 14:10:15.597 [warning] [Git][config] git config failed: Failed to execute git
+2026-08-16 14:10:15.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2026-08-16 14:10:15.607 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/AQUA/.git/refs/remotes/origin/main'
+2026-08-16 14:10:15.607 [info] > git reflog main --grep-reflog=branch: Created from *. [6ms]
+2026-08-16 14:10:15.612 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2026-08-16 14:10:15.621 [info] > git status -z -uall [5ms]
+2026-08-16 14:10:15.621 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [10ms]
+2026-08-16 14:10:15.627 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2026-08-16 14:10:15.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2026-08-16 14:10:15.637 [info] > git config --add --local branch.main.vscode-merge-base origin/main [3ms]
+2026-08-16 14:10:15.647 [info] > git config --get commit.template [6ms]
+2026-08-16 14:10:15.647 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-08-16 14:10:15.650 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/AQUA/.git/refs/remotes/origin/main'
+2026-08-16 14:10:15.652 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-08-16 14:10:15.661 [info] > git status -z -uall [6ms]
+2026-08-16 14:10:15.664 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-08-16 14:10:15.673 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2026-08-16 14:10:15.679 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2026-08-16 14:10:15.686 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% b19e178f4673869f95f0d7bf69d10e76fcea04b5...refs/remotes/origin/main -- [7ms]
+2026-08-16 14:10:15.686 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% b19e178f4673869f95f0d7bf69d10e76fcea04b5...refs/remotes/origin/main -- [2ms]
+2026-08-16 14:10:16.088 [info] > git check-ignore -v -z --stdin [4ms]
+2026-08-16 14:10:17.117 [info] > git check-ignore -v -z --stdin [2ms]
+2026-08-16 14:10:17.741 [info] > git config --get commit.template [6ms]
+2026-08-16 14:10:17.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-08-16 14:10:17.747 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/AQUA/.git/refs/remotes/origin/main'
+2026-08-16 14:10:17.748 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-08-16 14:10:17.758 [info] > git status -z -uall [4ms]
+2026-08-16 14:10:17.760 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-08-16 14:10:22.467 [info] > git config --local -l [4ms]
+2026-08-16 14:10:24.028 [info] > git config --local -l [6ms]
+2026-08-16 14:10:24.029 [info] > git config --local -l [15ms]
+2026-08-16 14:10:24.029 [info] > git config --local -l [22ms]
+2026-08-16 14:10:24.029 [info] > git config --local -l [30ms]
+2026-08-16 14:10:26.203 [info] > git config --local -l [14ms]
+2026-08-16 14:10:26.215 [info] > git for-each-ref --count=10 --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) refs/heads/ [31ms]
+2026-08-16 14:10:26.220 [info] > git config --local -l [41ms]
+2026-08-16 14:10:26.220 [info] > git config --local -l [45ms]
+2026-08-16 14:10:26.220 [info] > git config --local -l [48ms]
+2026-08-16 14:10:26.220 [info] > git config --local -l [53ms]
+2026-08-16 14:10:26.221 [info] > git config --local -l [58ms]
+2026-08-16 14:10:26.307 [info] > git config --local -l [87ms]
+2026-08-16 14:10:26.321 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-08-16 14:11:23.751 [info] > git config --get commit.template [13ms]
+2026-08-16 14:11:23.752 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-08-16 14:11:23.761 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/AQUA/.git/refs/remotes/origin/main'
+2026-08-16 14:11:23.762 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-08-16 14:11:23.778 [info] > git status -z -uall [8ms]
+2026-08-16 14:11:23.780 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]

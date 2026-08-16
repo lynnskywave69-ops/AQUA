@@ -1,0 +1,4 @@
+2026-08-16 14:15:47.525 [info] Log level: Info
+2026-08-16 14:15:48.812 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-08-16 14:16:38.128 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-08-16 14:19:58.571 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for ohmyzsh/ohmyzsh: Error: No GitHub authentication session available.

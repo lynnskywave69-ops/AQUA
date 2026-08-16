@@ -1,0 +1,48 @@
+2026-08-16 14:15:01.173 [info] Extension host with pid 28444 started
+2026-08-16 14:15:03.000 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-08-16 14:15:03.001 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2026-08-16 14:15:03.639 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/out/vs/workbench/api/node/extensionHostProcess.js:853:7297)
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:293:47508
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:293:51162
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:293:55194
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:293:56761
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:293:58951
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:302:2608
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:303:2671
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:303:9347
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:305:21736
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:305:25808
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:305:27311
+    at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:1:327
+    at Object.<anonymous> (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:1980:1178)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Object..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1396:12)
+    at i._load (file:///vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/out/vs/workbench/api/node/extensionHostProcess.js:853:6673)
+    at n._load (file:///vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/out/vs/workbench/api/node/extensionHostProcess.js:684:28866)
+    at n._load (file:///vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/out/vs/workbench/api/node/extensionHostProcess.js:676:26673)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at P_._doLoadModule (file:///vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/out/vs/workbench/api/node/extensionHostProcess.js:687:1487)
+2026-08-16 14:15:04.003 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-08-16 14:15:04.563 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-08-16 14:15:04.563 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-08-16 14:15:05.101 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onView:pr:github'
+2026-08-16 14:15:05.241 [info] Eager extensions activated
+2026-08-16 14:15:05.242 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-08-16 14:15:05.242 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-08-16 14:15:16.703 [info] Extension host terminating: received terminate message from renderer
+2026-08-16 14:15:16.735 [info] Extension host with pid 28444 exiting with code 0

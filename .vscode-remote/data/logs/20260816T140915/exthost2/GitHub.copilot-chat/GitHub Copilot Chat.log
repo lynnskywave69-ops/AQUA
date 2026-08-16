@@ -1,0 +1,35 @@
+2026-08-16 14:14:09.517 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-08-16 14:14:09.517 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-08-16 14:14:09.517 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-16 14:14:09.517 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-08-16 14:14:09.517 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-08-16 14:14:09.517 [info] BYOK: fetching known models list
+2026-08-16 14:14:09.517 [info] Can't use the Electron fetcher in this environment.
+2026-08-16 14:14:09.517 [info] Using the Node fetch fetcher.
+2026-08-16 14:14:09.517 [info] activationBlocker from 'languageModelAccess' took for 159ms
+2026-08-16 14:14:09.517 [info] [CopilotCLI] MCP server started. Lock file: /home/codespace/.copilot/ide/781ff113-0bec-4887-88bb-56c69df8e4f3.lock
+2026-08-16 14:14:09.517 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-tbkTXk/mcp.sock#%2Fmcp
+2026-08-16 14:14:09.517 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-08-16 14:14:09.606 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-08-16 14:14:09.606 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-08-16 14:14:09.606 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-08-16 14:14:09.939 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-08-16 14:14:10.350 [info] [CopilotCLIChatSessionContentProvider] listSessions took 436.9125750000003ms
+2026-08-16 14:14:10.624 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-16 14:14:11.393 [info] ConversationFeature: BYOK models available
+2026-08-16 14:14:11.393 [info] ConversationFeature: Activating contributions
+2026-08-16 14:14:11.408 [warning] Unable to fetch remote agents because user is not signed in.
+2026-08-16 14:14:11.408 [info] activationBlocker from 'conversationFeature' took for 2287ms
+2026-08-16 14:14:11.854 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-16 14:14:11.855 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0397939999984374ms
+2026-08-16 14:14:12.228 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-16 14:14:12.229 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0067200000012235ms
+2026-08-16 14:14:12.954 [warning] GitHub login failed
+2026-08-16 14:14:12.957 [warning] Skipping repo-scoped cloud task list because the current user id could not be resolved; returning no sessions to avoid exposing other users' tasks.
+2026-08-16 14:14:12.957 [warning] Skipping repo-scoped cloud task list because the current user id could not be resolved; returning no sessions to avoid exposing other users' tasks.
+2026-08-16 14:14:12.959 [info] [context keys] Setting context key: github.copilot.interactiveSession.gitHubLoginFailed
+2026-08-16 14:14:13.649 [error] Error fetching partner agents: PermissiveAuthRequiredError: Permissive authentication is required
+2026-08-16 14:14:14.695 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2026-08-16 14:14:14.695 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2026-08-16 14:14:14.695 [info] Successfully registered GitHub PR title and description provider.
+2026-08-16 14:14:15.651 [warning] GitHub login failed

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQUA INVEST</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0e27;
+            --bg-soft: #1a1f3a;
+            --panel: rgba(26, 31, 58, 0.95);
+            --panel-alt: rgba(35, 42, 75, 0.98);
+            --border: rgba(99, 179, 255, 0.25);
+            --primary: #00d4ff;
+            --primary-strong: #00a8ff;
+            --secondary: #00ff88;
+            --text: #f0f4ff;
+            --muted: #a8b8d0;
+            --danger: #ff4757;
+            --success: #2ed573;
+            --warning: #ffa502;
+            --accent-1: #ff006e;
+            --accent-2: #8338ec;
+            --accent-3: #fb5607;
+            --shadow: 0 25px 80px rgba(0, 0, 0, 0.45);
+            --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1a3f 25%, #2a0845 50%, #1a1a3f 75%, #0a0e27 100%);
+            background-attachment: fixed;
+            color: var(--text);
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        button, input, select {
+            font: inherit;
+        }
+
+        .page-shell {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .topbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 24px 36px;
+        }
+
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 800;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .brand.small {
+            font-size: 0.95rem;
+        }
+
+        .brand-mark {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #00d4ff, #00ff88, #ff006e);
+            color: #0a0e27;
+            font-weight: 800;
+            box-shadow: 0 5px 20px rgba(0, 212, 255, 0.4);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .nav-actions a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border: 0;
+            border-radius: 12px;
+            padding: 12px 22px;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+            transition: transform 0.2s ease, opacity 0.2s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-1px);
+        }
+
+        .btn-primary {
+            color: #0a0e27;
+            background: linear-gradient(135deg, #00d4ff, #00ff88);
+            box-shadow: 0 12px 35px rgba(0, 212, 255, 0.5), 0 0 30px rgba(0, 255, 136, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            font-weight: 700;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 16px 45px rgba(0, 212, 255, 0.6), 0 0 40px rgba(0, 255, 136, 0.4);
+        }
+
+        .btn-secondary {
+            color: var(--text);
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.15), rgba(0, 255, 136, 0.1));
+            border: 1px solid rgba(0, 212, 255, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.25), rgba(0, 255, 136, 0.2));
+            border-color: rgba(0, 212, 255, 0.6);
+            transform: translateY(-2px);
+        }
+
+        .full {
+            width: 100%;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 36px;
+            align-items: center;
+            min-height: calc(100vh - 94px);
+            padding: 24px 36px 60px;
+        }
+
+        .hero-copy h1 {
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            line-height: 1.08;
+            margin: 10px 0 18px;
+            background: linear-gradient(135deg, #00d4ff, #00ff88, #ff006e, #00d4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 300% 300%;
+        }
+
+        .eyebrow {
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--secondary);
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        .lead {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 620px;
+            line-height: 1.7;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            margin: 28px 0 32px;
+        }
+
+        .mini-stats {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+            list-style: none;
+            gap: 22px;
+            margin: 0;
+        }
+
+        .mini-stats li {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            min-width: 120px;
+            padding: 12px 16px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(0, 255, 136, 0.08));
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .mini-stats li:hover {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.2), rgba(0, 255, 136, 0.15));
+            border-color: rgba(0, 212, 255, 0.4);
+            transform: translateY(-3px);
+        }
+
+        .mini-stats strong {
+            font-size: 1.4rem;
+        }
+
+        .mini-stats span {
+            color: var(--muted);
+            font-size: 0.78rem;
+        }
+
+        .hero-card {
+            display: flex;
+            justify-content: center;
+        }
+
+        .glass-panel {
+            width: min(100%, 430px);
+            background: linear-gradient(135deg, rgba(26, 31, 58, 0.8), rgba(35, 42, 75, 0.7));
+            border: 1px solid rgba(0, 212, 255, 0.25);
+            border-radius: 24px;
+            box-shadow: var(--shadow), 0 0 40px rgba(0, 212, 255, 0.1);
+            backdrop-filter: blur(16px);
+            padding: 24px;
+            transition: all 0.4s ease;
+        }
+
+        .glass-panel:hover {
+            border-color: rgba(0, 212, 255, 0.5);
+            box-shadow: var(--shadow), 0 0 60px rgba(0, 212, 255, 0.2);
+            transform: translateY(-8px);
+        }
+
+        .card-label {
+            color: var(--muted);
+            margin: 0 0 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            font-size: 0.72rem;
+        }
+
+        .metric-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .metric-row span {
+            display: block;
+            color: var(--muted);
+            font-size: 0.72rem;
+            margin-bottom: 5px;
+        }
+
+        .metric-row strong {
+            font-size: 2rem;
+        }
+
+        .trend {
+            padding: 8px 12px;
+            border-radius: 999px;
+            font-weight: 700;
+            font-size: 0.75rem;
+        }
+
+        .trend.up {
+            background: rgba(75, 227, 163, 0.2);
+            color: var(--success);
+        }
+
+        .mini-chart {
+            display: flex;
+            align-items: end;
+            gap: 10px;
+            height: 120px;
+            margin: 24px 0;
+            padding: 20px 10px 6px;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .mini-chart span {
+            flex: 1;
+            border-radius: 12px 12px 0 0;
+            background: linear-gradient(180deg, #00d4ff, #00ff88);
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .mini-chart span:hover {
+            background: linear-gradient(180deg, #00ff88, #ff006e);
+            filter: brightness(1.3);
+        }
+
+        .plan-list {
+            display: grid;
+            gap: 10px;
+        }
+
+        .plan-list div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 14px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.03);
+            color: var(--muted);
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+                padding: 24px 20px;
+            }
+
+            .topbar {
+                padding: 18px 20px;
+            }
+        }
+    </style>
+</head>
+<body class="landing-page">
+    <div class="page-shell">
+        <header class="topbar">
+            <div class="brand">
+                <span class="brand-mark">A</span>
+                <span>AQUA INVEST</span>
+            </div>
+            <nav class="nav-actions">
+                <a href="login-choice.php">Login</a>
+                <a href="register.php" class="btn btn-primary">Register</a>
+            </nav>
+        </header>
+
+        <main class="hero">
+            <section class="hero-copy">
+                <p class="eyebrow">Smart capital growth</p>
+                <h1>Build wealth with disciplined, transparent investment plans.</h1>
+                <p class="lead">
+                    AQUA INVEST helps users track balances, manage deposits, plan returns, and monitor portfolio growth.
+                    Secure investment platform with real-time tracking and transparent portfolio management.
+                </p>
+                <div class="hero-actions">
+                    <a href="register.php" class="btn btn-primary">Open Account</a>
+                    <a href="login-choice.php" class="btn btn-secondary">Login</a>
+                </div>
+                <ul class="mini-stats">
+                    <li><strong>7</strong><span>Plans</span></li>
+                    <li><strong>24/7</strong><span>Tracking</span></li>
+                    <li><strong>Secure</strong><span>Bank-grade security</span></li>
+                </ul>
+            </section>
+
+            <section class="hero-card">
+                <div class="glass-panel">
+                    <p class="card-label">Sample dashboard</p>
+                    <div class="metric-row">
+                        <div>
+                            <span>Total Balance</span>
+                            <strong>KSh 248,400</strong>
+                        </div>
+                        <div class="trend up">+18.4%</div>
+                    </div>
+                    <div class="mini-chart">
+                        <span style="height: 30%"></span>
+                        <span style="height: 45%"></span>
+                        <span style="height: 55%"></span>
+                        <span style="height: 75%"></span>
+                        <span style="height: 90%"></span>
+                        <span style="height: 100%"></span>
+                    </div>
+                    <div class="plan-list">
+                        <div><span>KSh 300 → KSh 20</span><strong>25 days</strong></div>
+                        <div><span>KSh 700 → KSh 40</span><strong>30 days</strong></div>
+                        <div><span>KSh 1.2K → KSh 50</span><strong>60 days</strong></div>
+                        <div><span>KSh 2.5K → KSh 100</span><strong>90 days</strong></div>
+                        <div><span>KSh 4.8K → KSh 200</span><strong>130 days</strong></div>
+                        <div><span>KSh 9K → KSh 390</span><strong>180 days</strong></div>
+                        <div><span>KSh 18K → KSh 800</span><strong>210 days</strong></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

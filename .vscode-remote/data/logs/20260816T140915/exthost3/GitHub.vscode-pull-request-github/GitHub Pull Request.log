@@ -1,0 +1,8 @@
+2026-08-16 14:15:05.538 [warning] /home/codespace/.ssh/config: ENOENT: no such file or directory, open '/home/codespace/.ssh/config'
+2026-08-16 14:15:05.539 [info] [Activation] Extension version: 0.162.0
+2026-08-16 14:15:08.351 [info] [Activation] Registering built in git provider.
+2026-08-16 14:15:08.352 [info] [Activation] Looking for git repository
+2026-08-16 14:15:08.352 [info] [Activation] Found 0 repositories during activation
+2026-08-16 14:15:08.352 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2026-08-16 14:15:08.352 [info] [GitAPI] Registering git provider
+2026-08-16 14:15:09.043 [info] [GitPostCommitCommands] Trying to register post commit commands.

@@ -1,0 +1,51 @@
+2026-08-16 14:11:03.184 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-08-16 14:11:03.184 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-08-16 14:11:03.184 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-08-16 14:11:03.184 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-08-16 14:11:03.416 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-08-16 14:11:03.416 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-16 14:11:03.417 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-08-16 14:11:03.417 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-08-16 14:11:03.417 [info] BYOK: fetching known models list
+2026-08-16 14:11:03.417 [info] Can't use the Electron fetcher in this environment.
+2026-08-16 14:11:03.417 [info] Using the Node fetch fetcher.
+2026-08-16 14:11:03.418 [info] activationBlocker from 'languageModelAccess' took for 123ms
+2026-08-16 14:11:03.680 [info] [CopilotCLI] MCP server started. Lock file: /home/codespace/.copilot/ide/86720ec5-750a-483e-89f2-b3846e2289cd.lock
+2026-08-16 14:11:03.680 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-G922N5/mcp.sock#%2Fmcp
+2026-08-16 14:11:04.810 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-08-16 14:11:04.877 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-08-16 14:11:06.427 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1622.0041300000012ms
+2026-08-16 14:11:07.007 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-16 14:11:08.903 [info] ConversationFeature: BYOK models available
+2026-08-16 14:11:08.903 [info] ConversationFeature: Activating contributions
+2026-08-16 14:11:08.928 [warning] Unable to fetch remote agents because user is not signed in.
+2026-08-16 14:11:08.928 [info] activationBlocker from 'conversationFeature' took for 5645ms
+2026-08-16 14:11:09.017 [info] Logged in as lynnskywave69-ops
+2026-08-16 14:11:09.044 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2026-08-16 14:11:09.044 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2026-08-16 14:11:09.044 [info] Successfully registered GitHub PR title and description provider.
+2026-08-16 14:11:11.259 [info] [CopilotCLIChatSessionContentProvider] listSessions took 335.53554599999916ms
+2026-08-16 14:11:11.655 [info] Got Copilot token for lynnskywave69-ops
+2026-08-16 14:11:11.655 [info] Copilot Chat: 0.61.0, VS Code: 1.133.0
+2026-08-16 14:11:11.698 [info] copilot token sku: free_limited_copilot
+2026-08-16 14:11:11.699 [info] copilot token sku: free_limited_copilot
+2026-08-16 14:11:11.699 [info] copilot token sku: free_limited_copilot
+2026-08-16 14:11:11.699 [info] copilot token sku: free_limited_copilot
+2026-08-16 14:11:11.703 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-08-16 14:11:13.244 [info] [CopilotCLIChatSessionContentProvider] listSessions took 204.7568670000037ms
+2026-08-16 14:11:13.983 [info] Fetched model metadata in 10676ms 38a8177f-1e17-41cc-82c2-c1fb747037f7
+2026-08-16 14:11:14.352 [info] Latest entry: ccreq:latest.copilotmd
+2026-08-16 14:11:14.352 [info] ccreq:2f7c0561.copilotmd | markdown
+2026-08-16 14:11:21.816 [info] Logged in as lynnskywave69-ops
+2026-08-16 14:11:23.664 [info] Got Copilot token for lynnskywave69-ops
+2026-08-16 14:11:23.664 [info] Copilot Chat: 0.61.0, VS Code: 1.133.0
+2026-08-16 14:11:23.691 [info] copilot token sku: free_limited_copilot
+2026-08-16 14:11:23.691 [info] [code-referencing] Public code references are enabled.
+2026-08-16 14:11:23.705 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-08-16 14:11:23.705 [info] copilot token sku: free_limited_copilot
+2026-08-16 14:11:23.705 [info] Registering default platform agent...
+2026-08-16 14:11:23.721 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-08-16 14:11:23.723 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-08-16 14:11:24.616 [error] Failed to create database. Falling back to in-memory db: Error: unable to open database file
+2026-08-16 14:11:24.760 [info] Fetched model metadata in 1069ms c24cf2fe-54b1-42bb-bfb8-0f6b2cc9cd42
+2026-08-16 14:11:25.140 [info] ccreq:ab64823b.copilotmd | markdown

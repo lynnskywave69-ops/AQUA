@@ -1,0 +1,1181 @@
+2026-08-16 14:15:45.448 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-08-16 14:15:45.448 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-08-16 14:15:45.448 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-16 14:15:45.448 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-08-16 14:15:45.448 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-08-16 14:15:45.448 [info] BYOK: fetching known models list
+2026-08-16 14:15:45.448 [info] Can't use the Electron fetcher in this environment.
+2026-08-16 14:15:45.448 [info] Using the Node fetch fetcher.
+2026-08-16 14:15:45.448 [info] activationBlocker from 'languageModelAccess' took for 92ms
+2026-08-16 14:15:45.448 [info] [CopilotCLI] MCP server started. Lock file: /home/codespace/.copilot/ide/ef4ff4ef-df06-47fe-86e9-654a9f24b8e2.lock
+2026-08-16 14:15:45.448 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-D8hmS3/mcp.sock#%2Fmcp
+2026-08-16 14:15:45.448 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-08-16 14:15:45.506 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-08-16 14:15:45.506 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-08-16 14:15:45.506 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-08-16 14:15:46.861 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-08-16 14:15:47.783 [info] [CopilotCLIChatSessionContentProvider] listSessions took 930.0516970000008ms
+2026-08-16 14:15:48.214 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-16 14:15:48.964 [info] ConversationFeature: BYOK models available
+2026-08-16 14:15:48.964 [info] ConversationFeature: Activating contributions
+2026-08-16 14:15:48.980 [warning] Unable to fetch remote agents because user is not signed in.
+2026-08-16 14:15:48.981 [info] activationBlocker from 'conversationFeature' took for 3931ms
+2026-08-16 14:15:49.858 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-16 14:15:49.859 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0551500000001397ms
+2026-08-16 14:15:50.211 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-16 14:15:50.247 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8357610000002751ms
+2026-08-16 14:15:52.820 [warning] GitHub login failed
+2026-08-16 14:15:52.822 [warning] Skipping repo-scoped cloud task list because the current user id could not be resolved; returning no sessions to avoid exposing other users' tasks.
+2026-08-16 14:15:52.823 [warning] Skipping repo-scoped cloud task list because the current user id could not be resolved; returning no sessions to avoid exposing other users' tasks.
+2026-08-16 14:15:52.825 [info] [context keys] Setting context key: github.copilot.interactiveSession.gitHubLoginFailed
+2026-08-16 14:15:53.586 [error] Error fetching partner agents: PermissiveAuthRequiredError: Permissive authentication is required
+2026-08-16 14:15:55.432 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2026-08-16 14:15:55.432 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2026-08-16 14:15:55.432 [info] Successfully registered GitHub PR title and description provider.
+2026-08-16 14:15:56.584 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6762929999968037ms
+2026-08-16 14:15:57.039 [warning] GitHub login failed
+2026-08-16 14:16:08.531 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-16 14:16:09.183 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-16 14:16:11.042 [warning] GitHub login failed
+2026-08-16 14:16:14.708 [warning] GitHub login failed
+2026-08-16 14:16:40.393 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.082100999999966ms
+2026-08-16 14:16:41.433 [info] Logged in as lynnskywave69-ops
+2026-08-16 14:16:41.954 [info] Got Copilot token for lynnskywave69-ops
+2026-08-16 14:16:41.954 [info] Copilot Chat: 0.61.0, VS Code: 1.133.0
+2026-08-16 14:16:41.999 [info] copilot token sku: free_limited_copilot
+2026-08-16 14:16:42.010 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-08-16 14:16:42.010 [info] copilot token sku: free_limited_copilot
+2026-08-16 14:16:42.010 [info] Registering default platform agent...
+2026-08-16 14:16:42.087 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-08-16 14:16:43.257 [info] Fetched model metadata in 693ms 6c837387-36b0-4f91-96ca-21e6ed6d6763
+2026-08-16 14:16:43.638 [info] Latest entry: ccreq:latest.copilotmd
+2026-08-16 14:16:43.638 [info] ccreq:9581262a.copilotmd | markdown
+2026-08-16 14:16:44.785 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-08-16 14:16:44.791 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-08-16 14:16:44.881 [info] [VoiceProgress] loop request=request_2311bd14-127b-4d16-8489-d77bf8aad609 configured=true voice=false subagent=false stream=true
+2026-08-16 14:16:45.885 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:16:45.890 [info] request done: requestId: [d3fb2d65-4b4c-493d-a40b-77b1b061072c] model deployment ID: []
+2026-08-16 14:16:45.891 [info] ccreq:93fbec0c.copilotmd | success | gpt-4o-mini-2024-07-18 | 716ms | [title]
+2026-08-16 14:16:46.331 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:16:46.372 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:16:46.374 [info] request done: requestId: [957127bf-6e4f-430f-9909-54d12c90d98f] model deployment ID: []
+2026-08-16 14:16:46.375 [info] ccreq:b2fb70e0.copilotmd | success | gpt-4o-mini-2024-07-18 | 1184ms | [progressMessages]
+2026-08-16 14:16:46.615 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:16:46.617 [info] request done: requestId: [a53c0b18-022a-4036-aeb9-c3ff6059a4d6] model deployment ID: []
+2026-08-16 14:16:46.618 [info] ccreq:3bd66501.copilotmd | success | gpt-4o-mini-2024-07-18 | 1412ms | [progressMessages]
+2026-08-16 14:16:46.720 [error] Error fetching partner agents: PermissiveAuthRequiredError: Permissive authentication is required
+2026-08-16 14:16:46.721 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 14:16:46.721 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 14:16:48.675 [error] [GitHubOrgChatResourcesService] Error getting user organizations: PermissiveAuthRequiredError: Permissive authentication is required
+2026-08-16 14:16:48.981 [error] GithubCodeSearchService::getRemoteIndexState(ohmyzsh/ohmyzsh). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2026-08-16 14:16:48.981 [error] CodeSearchChunkSearch::getIndexedStatus(ohmyzsh/ohmyzsh). Failed to fetch indexing status. Encountered error: Error: Failed to fetch indexing status. Response: 404.
+2026-08-16 14:17:16.959 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.010959000006551ms
+2026-08-16 14:17:21.615 [info] ccreq:98ae5da8.copilotmd | success | gpt-5-mini | 27337ms | [panel/editAgent]
+2026-08-16 14:17:22.014 [info] [VoiceProgress] fallback request=request_2311bd14-127b-4d16-8489-d77bf8aad609 phase=planning emitted=false tools=manage_todo_list
+2026-08-16 14:17:22.698 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:17:32.354 [info] ccreq:83deffe6.copilotmd | success | gpt-5-mini | 8149ms | [panel/editAgent]
+2026-08-16 14:17:32.496 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 14:17:41.011 [info] ccreq:c6914e41.copilotmd | markdown
+2026-08-16 14:17:41.022 [info] [VoiceProgress] loop request=request_d2c6a6f1-6041-4984-ac23-9c79bb46c2c0 configured=true voice=false subagent=false stream=true
+2026-08-16 14:17:41.835 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:17:46.711 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:17:46.723 [info] ccreq:4265bae4.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3500ms | [panel/editAgent]
+2026-08-16 14:17:46.760 [info] [VoiceProgress] fallback request=request_d2c6a6f1-6041-4984-ac23-9c79bb46c2c0 phase=investigating emitted=false tools=read_file
+2026-08-16 14:17:47.437 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:17:50.198 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:17:50.200 [info] request done: requestId: [449e09c7-f529-4ef3-882a-6a6452b15d45] model deployment ID: []
+2026-08-16 14:17:50.201 [info] ccreq:dd3d9f3b.copilotmd | success | gpt-4o-mini-2024-07-18 | 709ms | [copilotLanguageModelWrapper]
+2026-08-16 14:17:50.565 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:17:50.568 [info] request done: requestId: [a92bf2b8-5eca-40af-a9b5-998e7a943b75] model deployment ID: []
+2026-08-16 14:17:50.570 [info] ccreq:c146ed32.copilotmd | success | gpt-4o-mini-2024-07-18 | 768ms | [copilotLanguageModelWrapper]
+2026-08-16 14:18:01.213 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:18:01.224 [info] ccreq:8abf3e28.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5564ms | [panel/editAgent]
+2026-08-16 14:18:01.232 [info] [VoiceProgress] fallback request=request_d2c6a6f1-6041-4984-ac23-9c79bb46c2c0 phase=planning emitted=false tools=manage_todo_list
+2026-08-16 14:18:01.930 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:18:06.983 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:18:06.994 [info] ccreq:6e8f616d.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3779ms | [panel/editAgent]
+2026-08-16 14:18:07.350 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 14:18:07.485 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:18:07.487 [info] request done: requestId: [8618ef55-9dae-4eb0-a328-3ab7d3915776] model deployment ID: []
+2026-08-16 14:18:07.487 [info] ccreq:cf0357d9.copilotmd | success | gpt-4o-mini-2024-07-18 | 693ms | [copilotLanguageModelWrapper]
+2026-08-16 14:18:18.314 [info] [VoiceProgress] loop request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 configured=true voice=false subagent=false stream=true
+2026-08-16 14:18:18.979 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:18:23.643 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:18:23.651 [info] ccreq:e3cfa372.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3391ms | [panel/editAgent]
+2026-08-16 14:18:23.657 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=validating emitted=false tools=run_in_terminal
+2026-08-16 14:18:24.296 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:18:24.947 [warning] Error compiling input schema for tool run_in_terminal: Error: strict mode: unknown keyword: "enumDescriptions"
+2026-08-16 14:18:28.018 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:18:28.021 [info] request done: requestId: [79cb833b-8ffd-497e-91b1-8976181276e4] model deployment ID: []
+2026-08-16 14:18:28.022 [info] ccreq:e6c2830e.copilotmd | success | gpt-4o-mini-2024-07-18 | 808ms | [copilotLanguageModelWrapper]
+2026-08-16 14:18:38.884 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:18:38.897 [info] ccreq:d389329c.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4708ms | [panel/editAgent]
+2026-08-16 14:18:38.902 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=investigating emitted=false tools=list_dir
+2026-08-16 14:18:47.875 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:18:56.502 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:18:56.510 [info] ccreq:1f017858.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6269ms | [panel/editAgent]
+2026-08-16 14:18:56.628 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:18:56.630 [info] request done: requestId: [4f573972-43b0-4423-b663-fa7ab2038033] model deployment ID: []
+2026-08-16 14:18:56.630 [info] ccreq:34277e3b.copilotmd | success | gpt-4o-mini-2024-07-18 | 719ms | [copilotLanguageModelWrapper]
+2026-08-16 14:18:57.709 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:19:01.028 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:01.030 [info] request done: requestId: [ec5809bb-6ec2-4694-8d57-3b855f0183d6] model deployment ID: []
+2026-08-16 14:19:01.031 [info] ccreq:ccddf456.copilotmd | success | gpt-4o-mini-2024-07-18 | 823ms | [copilotLanguageModelWrapper]
+2026-08-16 14:19:07.593 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:07.601 [info] ccreq:cd538a48.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4275ms | [panel/editAgent]
+2026-08-16 14:19:07.606 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=validating emitted=false tools=run_in_terminal
+2026-08-16 14:19:08.305 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:19:11.493 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:11.495 [info] request done: requestId: [bf1e9d57-a3de-4a43-8db1-69ca236fcd10] model deployment ID: []
+2026-08-16 14:19:11.496 [info] ccreq:7ba44274.copilotmd | success | gpt-4o-mini-2024-07-18 | 780ms | [copilotLanguageModelWrapper]
+2026-08-16 14:19:21.393 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:21.402 [info] ccreq:90e4e077.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 7398ms | [panel/editAgent]
+2026-08-16 14:19:21.921 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:21.922 [info] request done: requestId: [c5958d33-cca3-4240-b1ec-3e1048877749] model deployment ID: []
+2026-08-16 14:19:21.923 [info] ccreq:bfd28bb6.copilotmd | success | gpt-4o-mini-2024-07-18 | 700ms | [copilotLanguageModelWrapper]
+2026-08-16 14:19:22.081 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:19:25.791 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:25.792 [info] request done: requestId: [c33e8b78-2b79-487b-bafc-c2486dba43f5] model deployment ID: []
+2026-08-16 14:19:25.793 [info] ccreq:38d02c17.copilotmd | success | gpt-4o-mini-2024-07-18 | 802ms | [copilotLanguageModelWrapper]
+2026-08-16 14:19:34.706 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:34.710 [info] ccreq:867509ec.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5230ms | [panel/editAgent]
+2026-08-16 14:19:34.715 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=investigating emitted=false tools=read_file,read_file,read_file,read_file
+2026-08-16 14:19:35.360 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:19:38.122 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:38.124 [info] request done: requestId: [ec10d3b0-65fe-4984-9fef-8cc3b4db3e45] model deployment ID: []
+2026-08-16 14:19:38.125 [info] ccreq:eb129bf0.copilotmd | success | gpt-4o-mini-2024-07-18 | 706ms | [copilotLanguageModelWrapper]
+2026-08-16 14:19:38.487 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:38.488 [info] request done: requestId: [763de099-a2df-4319-bf46-704faeba3f95] model deployment ID: []
+2026-08-16 14:19:38.489 [info] ccreq:445f9324.copilotmd | success | gpt-4o-mini-2024-07-18 | 742ms | [copilotLanguageModelWrapper]
+2026-08-16 14:19:39.165 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:39.167 [info] request done: requestId: [6cf1eae4-f344-4484-817d-db5eb4c77391] model deployment ID: []
+2026-08-16 14:19:39.167 [info] ccreq:d98df157.copilotmd | success | gpt-4o-mini-2024-07-18 | 760ms | [copilotLanguageModelWrapper]
+2026-08-16 14:19:39.240 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:39.242 [info] request done: requestId: [9fd973e9-624f-4ca3-8c21-8de96a6ec423] model deployment ID: []
+2026-08-16 14:19:39.242 [info] ccreq:eeaa78cc.copilotmd | success | gpt-4o-mini-2024-07-18 | 1164ms | [copilotLanguageModelWrapper]
+2026-08-16 14:19:39.582 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:39.583 [info] request done: requestId: [cde82021-526a-4b5c-bb1b-edeab04b5456] model deployment ID: []
+2026-08-16 14:19:39.584 [info] ccreq:784ffdcd.copilotmd | success | gpt-4o-mini-2024-07-18 | 812ms | [copilotLanguageModelWrapper]
+2026-08-16 14:19:52.858 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.2210109999869019ms
+2026-08-16 14:19:55.249 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:55.251 [info] request done: requestId: [ed6a6ed9-8660-4976-8e89-60290626e55c] model deployment ID: []
+2026-08-16 14:19:55.252 [info] ccreq:11962c64.copilotmd | success | gpt-4o-mini-2024-07-18 | 700ms | [copilotLanguageModelWrapper]
+2026-08-16 14:19:56.731 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:19:56.739 [info] ccreq:84278225.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 7910ms | [panel/editAgent]
+2026-08-16 14:19:56.746 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=investigating emitted=false tools=read_file,read_file,read_file
+2026-08-16 14:19:57.862 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:20:00.754 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:20:00.756 [info] request done: requestId: [91e7eb2a-3e67-4022-b24f-dd29036c965e] model deployment ID: []
+2026-08-16 14:20:00.756 [info] ccreq:ce34be5d.copilotmd | success | gpt-4o-mini-2024-07-18 | 745ms | [copilotLanguageModelWrapper]
+2026-08-16 14:20:01.096 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:20:01.098 [info] request done: requestId: [de13297c-aa18-4365-9c24-c02c9796a3ca] model deployment ID: []
+2026-08-16 14:20:01.099 [info] ccreq:49ea1df9.copilotmd | success | gpt-4o-mini-2024-07-18 | 753ms | [copilotLanguageModelWrapper]
+2026-08-16 14:20:01.501 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:20:01.503 [info] request done: requestId: [bcbc4854-ba7f-4c4c-9648-8404b48977b1] model deployment ID: []
+2026-08-16 14:20:01.504 [info] ccreq:bd92c872.copilotmd | success | gpt-4o-mini-2024-07-18 | 816ms | [copilotLanguageModelWrapper]
+2026-08-16 14:20:11.189 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:20:11.203 [info] ccreq:11469717.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4865ms | [panel/editAgent]
+2026-08-16 14:20:11.209 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=investigating emitted=false tools=read_file
+2026-08-16 14:20:12.002 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:20:15.382 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:20:15.384 [info] request done: requestId: [bf49fd30-4b2a-4cbe-abbf-f66c36926212] model deployment ID: []
+2026-08-16 14:20:15.384 [info] ccreq:9e028988.copilotmd | success | gpt-4o-mini-2024-07-18 | 704ms | [copilotLanguageModelWrapper]
+2026-08-16 14:20:15.756 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:20:15.757 [info] request done: requestId: [abff9c34-371c-4217-8057-4f0acb89efdf] model deployment ID: []
+2026-08-16 14:20:15.758 [info] ccreq:f958e18f.copilotmd | success | gpt-4o-mini-2024-07-18 | 748ms | [copilotLanguageModelWrapper]
+2026-08-16 14:20:24.489 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:20:24.491 [info] request done: requestId: [2590e4db-c0af-47c1-8bb7-3c72ced21728] model deployment ID: []
+2026-08-16 14:20:24.491 [info] ccreq:12e56561.copilotmd | success | gpt-4o-mini-2024-07-18 | 701ms | [copilotLanguageModelWrapper]
+2026-08-16 14:20:50.185 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:20:50.200 [info] ccreq:1936d203.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 29488ms | [panel/editAgent]
+2026-08-16 14:20:50.208 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=editing emitted=false tools=create_file,create_file,create_file,create_file
+2026-08-16 14:20:50.913 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:20:53.673 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:20:53.674 [info] request done: requestId: [625b9a1d-afef-40a1-8794-b6ebee310e95] model deployment ID: []
+2026-08-16 14:20:53.675 [info] ccreq:f94c1d85.copilotmd | success | gpt-4o-mini-2024-07-18 | 826ms | [copilotLanguageModelWrapper]
+2026-08-16 14:20:54.041 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:20:54.043 [info] request done: requestId: [d1f457e2-db54-4c59-926d-226b707bc5f7] model deployment ID: []
+2026-08-16 14:20:54.043 [info] ccreq:251823d9.copilotmd | success | gpt-4o-mini-2024-07-18 | 688ms | [copilotLanguageModelWrapper]
+2026-08-16 14:21:08.977 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8400990000227466ms
+2026-08-16 14:21:14.991 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:21:14.993 [info] request done: requestId: [9242793f-b00f-46b7-a70b-b959a2dc0644] model deployment ID: []
+2026-08-16 14:21:14.994 [info] ccreq:699fbd6e.copilotmd | success | gpt-4o-mini-2024-07-18 | 836ms | [copilotLanguageModelWrapper]
+2026-08-16 14:22:11.881 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:22:11.897 [info] ccreq:55ee4934.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 60997ms | [panel/editAgent]
+2026-08-16 14:22:11.905 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=editing emitted=false tools=create_file,create_file
+2026-08-16 14:22:12.774 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:22:26.847 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:22:26.850 [info] request done: requestId: [0cb21356-5e6e-4ec2-a17f-60a0e00cca43] model deployment ID: []
+2026-08-16 14:22:26.851 [info] ccreq:4e68918d.copilotmd | success | gpt-4o-mini-2024-07-18 | 1149ms | [copilotLanguageModelWrapper]
+2026-08-16 14:23:00.316 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:23:00.321 [info] ccreq:b55329de.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 38406ms | [panel/editAgent]
+2026-08-16 14:23:00.326 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=editing emitted=false tools=create_file
+2026-08-16 14:23:00.992 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:23:10.927 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:23:10.929 [info] request done: requestId: [ad3b941f-ef46-49ef-92bc-ab119c2aba82] model deployment ID: []
+2026-08-16 14:23:10.930 [info] ccreq:287c2e74.copilotmd | success | gpt-4o-mini-2024-07-18 | 624ms | [copilotLanguageModelWrapper]
+2026-08-16 14:23:20.630 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:23:20.642 [info] ccreq:d6dbae7d.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 14589ms | [panel/editAgent]
+2026-08-16 14:23:20.647 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=editing emitted=false tools=create_file
+2026-08-16 14:23:21.378 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:23:56.618 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:23:56.625 [info] ccreq:4a5b4b04.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 30041ms | [panel/editAgent]
+2026-08-16 14:23:56.631 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=editing emitted=false tools=create_file
+2026-08-16 14:23:58.152 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:24:08.469 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:24:08.480 [info] ccreq:ad75ce7e.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3767ms | [panel/editAgent]
+2026-08-16 14:24:08.485 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=validating emitted=false tools=run_in_terminal
+2026-08-16 14:24:08.905 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:24:08.907 [info] request done: requestId: [c30fcd74-65fb-4a3e-979c-986824aa41f9] model deployment ID: []
+2026-08-16 14:24:08.907 [info] ccreq:4cb529a3.copilotmd | success | gpt-4o-mini-2024-07-18 | 737ms | [copilotLanguageModelWrapper]
+2026-08-16 14:24:09.159 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:24:12.511 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:24:12.513 [info] request done: requestId: [47feaf02-72cc-4abc-8829-e0ea52f9749c] model deployment ID: []
+2026-08-16 14:24:12.513 [info] ccreq:bfa2b8b0.copilotmd | success | gpt-4o-mini-2024-07-18 | 839ms | [copilotLanguageModelWrapper]
+2026-08-16 14:24:34.891 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 14:24:38.632 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:24:38.640 [info] ccreq:47406d37.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3443ms | [panel/editAgent]
+2026-08-16 14:24:39.350 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:24:42.883 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:24:42.885 [info] request done: requestId: [fefac7be-3009-406d-afd7-fd500693cce2] model deployment ID: []
+2026-08-16 14:24:42.886 [info] ccreq:27d73296.copilotmd | success | gpt-4o-mini-2024-07-18 | 860ms | [copilotLanguageModelWrapper]
+2026-08-16 14:25:09.248 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:25:09.258 [info] ccreq:a3965dd7.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3682ms | [panel/editAgent]
+2026-08-16 14:25:09.643 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:25:09.644 [info] request done: requestId: [ca7a1ac6-a796-400a-973f-cbed6da1fea2] model deployment ID: []
+2026-08-16 14:25:09.645 [info] ccreq:ff702e2d.copilotmd | success | gpt-4o-mini-2024-07-18 | 681ms | [copilotLanguageModelWrapper]
+2026-08-16 14:25:09.921 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:25:13.303 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:25:13.305 [info] request done: requestId: [3258f041-28d9-46df-9eb3-8adf12f86cac] model deployment ID: []
+2026-08-16 14:25:13.306 [info] ccreq:021e2b5e.copilotmd | success | gpt-4o-mini-2024-07-18 | 805ms | [copilotLanguageModelWrapper]
+2026-08-16 14:25:22.019 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:25:22.027 [info] ccreq:c27fded3.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3371ms | [panel/editAgent]
+2026-08-16 14:25:22.035 [info] [VoiceProgress] fallback request=request_928f8dde-d718-4e77-9f65-636cfbcf6be9 phase=planning emitted=false tools=manage_todo_list
+2026-08-16 14:25:22.714 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:25:31.307 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:25:31.309 [info] request done: requestId: [f2a830ae-515f-4c14-83a9-f8f4bdd63db2] model deployment ID: []
+2026-08-16 14:25:31.310 [info] ccreq:cdadf5e5.copilotmd | success | gpt-4o-mini-2024-07-18 | 695ms | [copilotLanguageModelWrapper]
+2026-08-16 14:25:32.037 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:25:32.046 [info] ccreq:266d459e.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 7939ms | [panel/editAgent]
+2026-08-16 14:25:33.219 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 14:25:39.445 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.9994949999963865ms
+2026-08-16 14:28:10.360 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9591220000293106ms
+2026-08-16 14:28:12.871 [info] Fetched model metadata in 840ms 29874c36-cfb1-4d7a-9f95-cd19e79e345d
+2026-08-16 14:28:13.258 [info] ccreq:6f6d3567.copilotmd | markdown
+2026-08-16 14:28:13.278 [info] [VoiceProgress] loop request=request_ba2ddd92-3c1a-480e-a794-6db179854c62 configured=true voice=false subagent=false stream=true
+2026-08-16 14:28:13.962 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:28:23.441 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:28:23.444 [info] request done: requestId: [206f23b2-0183-4fc4-b7b4-b2092c8385d6] model deployment ID: []
+2026-08-16 14:28:23.445 [info] ccreq:a9f1e8b3.copilotmd | success | gpt-4o-mini-2024-07-18 | 1228ms | [copilotLanguageModelWrapper]
+2026-08-16 14:28:57.281 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:28:57.297 [info] ccreq:f68bdac8.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 41468ms | [panel/editAgent]
+2026-08-16 14:28:57.638 [info] [VoiceProgress] fallback request=request_ba2ddd92-3c1a-480e-a794-6db179854c62 phase=editing emitted=false tools=create_file
+2026-08-16 14:28:58.486 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:29:08.803 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:29:08.806 [info] request done: requestId: [40d6f9dc-e169-4d30-a428-9d8babf19fee] model deployment ID: []
+2026-08-16 14:29:08.806 [info] ccreq:dad558e9.copilotmd | success | gpt-4o-mini-2024-07-18 | 679ms | [copilotLanguageModelWrapper]
+2026-08-16 14:29:09.130 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:29:09.139 [info] ccreq:73a42c39.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5258ms | [panel/editAgent]
+2026-08-16 14:29:09.801 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:29:13.645 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:29:13.647 [info] request done: requestId: [df51b00e-54fe-4db8-a6ef-7c80979661e0] model deployment ID: []
+2026-08-16 14:29:13.648 [info] ccreq:fa41afe3.copilotmd | success | gpt-4o-mini-2024-07-18 | 820ms | [copilotLanguageModelWrapper]
+2026-08-16 14:29:22.256 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:29:22.265 [info] ccreq:ea821ce8.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4944ms | [panel/editAgent]
+2026-08-16 14:29:22.270 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 14:29:22.413 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:29:22.415 [info] request done: requestId: [c8ad47cf-adea-4998-8ffa-cc98e394ed10] model deployment ID: []
+2026-08-16 14:29:22.415 [info] ccreq:44457881.copilotmd | success | gpt-4o-mini-2024-07-18 | 756ms | [copilotLanguageModelWrapper]
+2026-08-16 14:30:11.613 [info] [VoiceProgress] loop request=request_a699dfc0-9acb-4df2-8dcd-c241f0496dd9 configured=true voice=false subagent=false stream=true
+2026-08-16 14:30:12.261 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:30:23.368 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:30:23.377 [info] ccreq:d2ce20bd.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 9152ms | [panel/editAgent]
+2026-08-16 14:30:23.386 [info] [VoiceProgress] fallback request=request_a699dfc0-9acb-4df2-8dcd-c241f0496dd9 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 14:30:24.055 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:30:27.037 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:30:27.040 [info] request done: requestId: [f3fc3aa9-8f30-419b-a095-7df8470545ef] model deployment ID: []
+2026-08-16 14:30:27.041 [info] ccreq:384b970c.copilotmd | success | gpt-4o-mini-2024-07-18 | 715ms | [copilotLanguageModelWrapper]
+2026-08-16 14:30:27.311 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:30:27.313 [info] request done: requestId: [a7c52ea0-35ba-428d-9cbe-2b8792ec1d51] model deployment ID: []
+2026-08-16 14:30:27.313 [info] ccreq:9bf4d061.copilotmd | success | gpt-4o-mini-2024-07-18 | 668ms | [copilotLanguageModelWrapper]
+2026-08-16 14:30:44.649 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.4073090000310913ms
+2026-08-16 14:30:51.671 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:30:51.680 [info] ccreq:93b59bcb.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3473ms | [panel/editAgent]
+2026-08-16 14:30:52.340 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:30:55.801 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:30:55.803 [info] request done: requestId: [53543917-8aff-4426-8c69-3c301bbc0c71] model deployment ID: []
+2026-08-16 14:30:55.803 [info] ccreq:7f243ed9.copilotmd | success | gpt-4o-mini-2024-07-18 | 888ms | [copilotLanguageModelWrapper]
+2026-08-16 14:30:55.861 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:30:55.863 [info] request done: requestId: [12d4ad3f-279b-4060-bff7-ff79289a15ad] model deployment ID: []
+2026-08-16 14:30:55.863 [info] ccreq:4da7a99b.copilotmd | success | gpt-4o-mini-2024-07-18 | 682ms | [copilotLanguageModelWrapper]
+2026-08-16 14:31:17.799 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0225000000791624ms
+2026-08-16 14:31:26.680 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:31:26.688 [info] ccreq:c77f504b.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4733ms | [panel/editAgent]
+2026-08-16 14:31:26.693 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 14:31:26.936 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:31:26.938 [info] request done: requestId: [19201f92-446f-4db8-9f27-b34f2ec02772] model deployment ID: []
+2026-08-16 14:31:26.938 [info] ccreq:97d6a22c.copilotmd | success | gpt-4o-mini-2024-07-18 | 753ms | [copilotLanguageModelWrapper]
+2026-08-16 14:36:36.736 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.02171800006181ms
+2026-08-16 14:39:24.690 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8929979999084026ms
+2026-08-16 14:39:30.505 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 14:39:58.304 [info] Logged in as lynnskywave69-ops
+2026-08-16 14:39:58.915 [info] Got Copilot token for lynnskywave69-ops
+2026-08-16 14:39:58.916 [info] Copilot Chat: 0.61.0, VS Code: 1.133.0
+2026-08-16 14:39:58.948 [info] copilot token sku: free_limited_copilot
+2026-08-16 14:39:58.948 [info] [code-referencing] Public code references are enabled.
+2026-08-16 14:39:59.671 [info] Fetched model metadata in 3541ms 1e520811-6c81-48cc-a92d-2289a700cc7f
+2026-08-16 14:40:00.041 [info] ccreq:89b80619.copilotmd | markdown
+2026-08-16 14:40:00.059 [info] [VoiceProgress] loop request=request_f2f5cacd-7f5e-4b88-a45f-5b1a2d50ee14 configured=true voice=false subagent=false stream=true
+2026-08-16 14:40:00.762 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:40:08.636 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:40:08.638 [info] request done: requestId: [ddcc9508-5fcf-4b07-8962-8f9794e2a7ec] model deployment ID: []
+2026-08-16 14:40:08.639 [info] ccreq:3ca6e9da.copilotmd | success | gpt-4o-mini-2024-07-18 | 1174ms | [copilotLanguageModelWrapper]
+2026-08-16 14:40:09.958 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:40:09.966 [info] ccreq:01a8eacd.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 7417ms | [panel/editAgent]
+2026-08-16 14:40:09.975 [info] [VoiceProgress] fallback request=request_f2f5cacd-7f5e-4b88-a45f-5b1a2d50ee14 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 14:40:10.638 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:40:36.469 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:40:36.481 [info] ccreq:03ab549b.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 21365ms | [panel/editAgent]
+2026-08-16 14:40:36.487 [info] [VoiceProgress] fallback request=request_f2f5cacd-7f5e-4b88-a45f-5b1a2d50ee14 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 14:40:37.169 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:40:46.804 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:40:46.806 [info] request done: requestId: [7a94cb66-20a4-40f8-87a2-e78d160f68af] model deployment ID: []
+2026-08-16 14:40:46.807 [info] ccreq:50a85d6f.copilotmd | success | gpt-4o-mini-2024-07-18 | 769ms | [copilotLanguageModelWrapper]
+2026-08-16 14:40:47.553 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:40:47.561 [info] ccreq:f9fbe9e2.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5983ms | [panel/editAgent]
+2026-08-16 14:40:48.200 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 14:41:20.257 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.813039000146091ms
+2026-08-16 14:43:06.045 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9387929998338223ms
+2026-08-16 14:43:12.139 [info] [VoiceProgress] loop request=request_5f95ce84-cb1a-40da-b45d-9328c0e1d774 configured=true voice=false subagent=false stream=true
+2026-08-16 14:43:12.840 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:43:30.205 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0220970001537353ms
+2026-08-16 14:43:54.360 [info] ccreq:99618d31.copilotmd | success | gpt-5-mini | 36748ms | [panel/editAgent]
+2026-08-16 14:43:54.368 [info] [VoiceProgress] fallback request=request_5f95ce84-cb1a-40da-b45d-9328c0e1d774 phase=planning emitted=false tools=manage_todo_list
+2026-08-16 14:43:55.082 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:44:10.782 [info] ccreq:3556694d.copilotmd | success | gpt-5-mini | 14294ms | [panel/editAgent]
+2026-08-16 14:44:10.789 [info] [VoiceProgress] fallback request=request_5f95ce84-cb1a-40da-b45d-9328c0e1d774 phase=editing emitted=false tools=apply_patch
+2026-08-16 14:44:11.447 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:44:16.347 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:44:16.350 [info] request done: requestId: [9de40503-4596-447a-989e-600378e5c65f] model deployment ID: []
+2026-08-16 14:44:16.350 [info] ccreq:6f3d1d55.copilotmd | success | gpt-4o-mini-2024-07-18 | 1229ms | [copilotLanguageModelWrapper]
+2026-08-16 14:44:16.639 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:44:16.640 [info] request done: requestId: [2d0bbf66-7152-4bfb-a170-a1251ea7d3c0] model deployment ID: []
+2026-08-16 14:44:16.641 [info] ccreq:ea223cfa.copilotmd | success | gpt-4o-mini-2024-07-18 | 1121ms | [copilotLanguageModelWrapper]
+2026-08-16 14:44:52.685 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0207759998738766ms
+2026-08-16 14:44:59.843 [info] ccreq:ad169a90.copilotmd | success | gpt-5-mini | 2411ms | [panel/editAgent]
+2026-08-16 14:45:00.535 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:45:04.062 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:45:04.064 [info] request done: requestId: [cb0cde24-8f6f-4e14-b69d-3b6366c0fbd6] model deployment ID: []
+2026-08-16 14:45:04.065 [info] ccreq:5b15b560.copilotmd | success | gpt-4o-mini-2024-07-18 | 813ms | [copilotLanguageModelWrapper]
+2026-08-16 14:45:04.378 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:45:04.379 [info] request done: requestId: [264dc949-b9d3-4d2a-a25b-ce22ec5a9f4a] model deployment ID: []
+2026-08-16 14:45:04.380 [info] ccreq:6c4cc650.copilotmd | success | gpt-4o-mini-2024-07-18 | 802ms | [copilotLanguageModelWrapper]
+2026-08-16 14:45:13.214 [info] ccreq:1ad618e8.copilotmd | success | gpt-5-mini | 6645ms | [panel/editAgent]
+2026-08-16 14:45:13.221 [info] [VoiceProgress] fallback request=request_5f95ce84-cb1a-40da-b45d-9328c0e1d774 phase=planning emitted=false tools=manage_todo_list
+2026-08-16 14:45:13.933 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:45:23.604 [info] ccreq:af6677a1.copilotmd | success | gpt-5-mini | 8338ms | [panel/editAgent]
+2026-08-16 14:45:23.610 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 14:45:30.600 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.75401800009422ms
+2026-08-16 14:46:01.560 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.755782000022009ms
+2026-08-16 14:46:30.173 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.845428999979049ms
+2026-08-16 14:47:40.816 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.952248000074178ms
+2026-08-16 14:47:58.247 [info] [VoiceProgress] loop request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 configured=true voice=false subagent=false stream=true
+2026-08-16 14:47:58.908 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:48:06.163 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.827205000212416ms
+2026-08-16 14:48:06.183 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:48:06.188 [info] ccreq:422ff6c5.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5506ms | [panel/editAgent]
+2026-08-16 14:48:06.205 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=planning emitted=false tools=manage_todo_list
+2026-08-16 14:48:07.151 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:48:08.454 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6415579998865724ms
+2026-08-16 14:48:11.941 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:48:11.955 [info] ccreq:e6a51c0d.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3405ms | [panel/editAgent]
+2026-08-16 14:48:11.961 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=investigating emitted=false tools=read_file
+2026-08-16 14:48:12.626 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:48:15.386 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:48:15.387 [info] request done: requestId: [adbfded8-01a5-48e7-b158-2df32e42c515] model deployment ID: []
+2026-08-16 14:48:15.388 [info] ccreq:896ac30d.copilotmd | success | gpt-4o-mini-2024-07-18 | 724ms | [copilotLanguageModelWrapper]
+2026-08-16 14:48:16.153 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:48:16.155 [info] request done: requestId: [d6960a73-2ffe-4b1a-910a-f2db0b3aa5db] model deployment ID: []
+2026-08-16 14:48:16.156 [info] ccreq:ed2a277f.copilotmd | success | gpt-4o-mini-2024-07-18 | 1159ms | [copilotLanguageModelWrapper]
+2026-08-16 14:48:24.716 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:48:24.720 [info] ccreq:7f9fb46f.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 7036ms | [panel/editAgent]
+2026-08-16 14:48:24.725 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 14:48:25.430 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:48:45.347 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:48:45.366 [info] ccreq:846677a0.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 15575ms | [panel/editAgent]
+2026-08-16 14:48:45.379 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 14:48:46.080 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:48:56.596 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:48:56.612 [info] ccreq:540c5bcf.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6154ms | [panel/editAgent]
+2026-08-16 14:48:56.618 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 14:48:57.879 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:49:05.671 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:49:05.702 [info] ccreq:a2bdc55b.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3579ms | [panel/editAgent]
+2026-08-16 14:49:06.391 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:49:10.203 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:49:10.205 [info] request done: requestId: [8d3b3eaf-d833-483d-9634-bf6c0a22bc07] model deployment ID: []
+2026-08-16 14:49:10.206 [info] ccreq:44c7b2e9.copilotmd | success | gpt-4o-mini-2024-07-18 | 929ms | [copilotLanguageModelWrapper]
+2026-08-16 14:49:10.507 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:49:10.508 [info] request done: requestId: [cf8b97b7-b9b5-4c54-a97d-439402df57c5] model deployment ID: []
+2026-08-16 14:49:10.509 [info] ccreq:0db3e91b.copilotmd | success | gpt-4o-mini-2024-07-18 | 897ms | [copilotLanguageModelWrapper]
+2026-08-16 14:49:25.868 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7050259998068213ms
+2026-08-16 14:49:31.506 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 14:49:33.123 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:49:33.138 [info] ccreq:3542f08e.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3381ms | [panel/editAgent]
+2026-08-16 14:49:33.143 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=validating emitted=false tools=run_in_terminal
+2026-08-16 14:49:33.841 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:49:37.162 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:49:37.164 [info] request done: requestId: [ef2511fe-cdc9-494a-b028-01e674b16722] model deployment ID: []
+2026-08-16 14:49:37.165 [info] ccreq:a3da056c.copilotmd | success | gpt-4o-mini-2024-07-18 | 834ms | [copilotLanguageModelWrapper]
+2026-08-16 14:50:04.547 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7165890000760555ms
+2026-08-16 14:50:07.831 [info] Fetched model metadata in 287ms 8bbf2b09-dd0d-4e92-ae64-90547126ccf4
+2026-08-16 14:50:07.840 [info] ccreq:4066fe26.copilotmd | markdown
+2026-08-16 14:50:11.826 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:50:11.836 [info] ccreq:550081e8.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3393ms | [panel/editAgent]
+2026-08-16 14:50:11.842 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=investigating emitted=false tools=grep_search
+2026-08-16 14:50:12.488 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:50:19.505 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:50:19.525 [info] ccreq:868670b6.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2953ms | [panel/editAgent]
+2026-08-16 14:50:19.539 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=investigating emitted=false tools=read_file
+2026-08-16 14:50:20.265 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:50:23.147 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:50:23.148 [info] request done: requestId: [3fc333db-3a23-4566-89b8-74baa70350ff] model deployment ID: []
+2026-08-16 14:50:23.149 [info] ccreq:fe587b04.copilotmd | success | gpt-4o-mini-2024-07-18 | 730ms | [copilotLanguageModelWrapper]
+2026-08-16 14:50:23.791 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:50:23.793 [info] request done: requestId: [ec26a6fc-fddd-4320-9c53-e23bd5332c16] model deployment ID: []
+2026-08-16 14:50:23.793 [info] ccreq:53b9fa5a.copilotmd | success | gpt-4o-mini-2024-07-18 | 1053ms | [copilotLanguageModelWrapper]
+2026-08-16 14:50:43.235 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:50:43.253 [info] ccreq:60b48950.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2950ms | [panel/editAgent]
+2026-08-16 14:50:43.258 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=investigating emitted=false tools=grep_search
+2026-08-16 14:50:43.935 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:50:51.951 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:50:51.962 [info] ccreq:7908e842.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3910ms | [panel/editAgent]
+2026-08-16 14:50:51.972 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=investigating emitted=false tools=read_file
+2026-08-16 14:50:52.623 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:50:55.917 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:50:55.919 [info] request done: requestId: [1f95a411-81cd-4a48-aefa-efa08c8cc1e2] model deployment ID: []
+2026-08-16 14:50:55.920 [info] ccreq:f222b357.copilotmd | success | gpt-4o-mini-2024-07-18 | 701ms | [copilotLanguageModelWrapper]
+2026-08-16 14:50:56.345 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:50:56.347 [info] request done: requestId: [11f460a5-e932-4d2f-b48a-caa220c9b57f] model deployment ID: []
+2026-08-16 14:50:56.347 [info] ccreq:550be057.copilotmd | success | gpt-4o-mini-2024-07-18 | 802ms | [copilotLanguageModelWrapper]
+2026-08-16 14:51:11.028 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:51:11.043 [info] ccreq:f15855ca.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3293ms | [panel/editAgent]
+2026-08-16 14:51:11.050 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=validating emitted=false tools=run_in_terminal
+2026-08-16 14:51:11.724 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:51:15.063 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:51:15.064 [info] request done: requestId: [81aebc8f-b834-49e5-a433-8eca1c974cd8] model deployment ID: []
+2026-08-16 14:51:15.065 [info] ccreq:9ce63ef8.copilotmd | success | gpt-4o-mini-2024-07-18 | 857ms | [copilotLanguageModelWrapper]
+2026-08-16 14:51:42.466 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:51:42.484 [info] ccreq:81680c66.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3216ms | [panel/editAgent]
+2026-08-16 14:51:42.492 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=investigating emitted=false tools=read_file
+2026-08-16 14:51:43.246 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:51:46.189 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:51:46.192 [info] request done: requestId: [612be959-af4b-4340-ad43-401ff87d25fb] model deployment ID: []
+2026-08-16 14:51:46.192 [info] ccreq:c974b82d.copilotmd | success | gpt-4o-mini-2024-07-18 | 789ms | [copilotLanguageModelWrapper]
+2026-08-16 14:51:46.724 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:51:46.725 [info] request done: requestId: [fa6bee0d-b439-48a8-b8ce-16d8c4099571] model deployment ID: []
+2026-08-16 14:51:46.726 [info] ccreq:ebb8798e.copilotmd | success | gpt-4o-mini-2024-07-18 | 899ms | [copilotLanguageModelWrapper]
+2026-08-16 14:52:24.822 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:52:24.840 [info] ccreq:457183e9.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5966ms | [panel/editAgent]
+2026-08-16 14:52:24.849 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 14:52:25.526 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:52:33.557 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:52:33.573 [info] ccreq:f65535a8.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3802ms | [panel/editAgent]
+2026-08-16 14:52:34.254 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:52:37.609 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:52:37.610 [info] request done: requestId: [8decd90e-753d-4ab4-b050-9ae82b32fe3c] model deployment ID: []
+2026-08-16 14:52:37.611 [info] ccreq:19c7d987.copilotmd | success | gpt-4o-mini-2024-07-18 | 821ms | [copilotLanguageModelWrapper]
+2026-08-16 14:52:37.803 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:52:37.804 [info] request done: requestId: [708d18ce-13ee-4fa0-8d93-0a52b89c24ae] model deployment ID: []
+2026-08-16 14:52:37.805 [info] ccreq:cd3fc8e7.copilotmd | success | gpt-4o-mini-2024-07-18 | 702ms | [copilotLanguageModelWrapper]
+2026-08-16 14:52:47.617 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:52:47.631 [info] ccreq:be998971.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3865ms | [panel/editAgent]
+2026-08-16 14:52:47.636 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=validating emitted=false tools=run_in_terminal
+2026-08-16 14:52:48.593 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:52:51.942 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:52:51.945 [info] request done: requestId: [34fda3b5-5915-4401-9a07-668e8e364edf] model deployment ID: []
+2026-08-16 14:52:51.945 [info] ccreq:3e3e7d97.copilotmd | success | gpt-4o-mini-2024-07-18 | 896ms | [copilotLanguageModelWrapper]
+2026-08-16 14:53:06.144 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:53:06.159 [info] ccreq:2e350a41.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5163ms | [panel/editAgent]
+2026-08-16 14:53:06.169 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 14:53:06.826 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:53:15.343 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:53:15.360 [info] ccreq:2cc16722.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4329ms | [panel/editAgent]
+2026-08-16 14:53:15.364 [info] [VoiceProgress] fallback request=request_ff78f4f4-0114-457f-bdef-9383ba008ec6 phase=planning emitted=false tools=manage_todo_list
+2026-08-16 14:53:16.073 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:53:21.217 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:53:21.219 [info] request done: requestId: [155e365a-d550-4972-8f00-f7a62d12ab91] model deployment ID: []
+2026-08-16 14:53:21.220 [info] ccreq:4f52e528.copilotmd | success | gpt-4o-mini-2024-07-18 | 705ms | [copilotLanguageModelWrapper]
+2026-08-16 14:53:22.253 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:53:22.273 [info] ccreq:4a833d1e.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4787ms | [panel/editAgent]
+2026-08-16 14:53:22.279 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 14:55:42.365 [info] [VoiceProgress] loop request=request_809753e9-3efa-4d77-9177-c22a75362bee configured=true voice=false subagent=false stream=true
+2026-08-16 14:55:43.065 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:55:43.157 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:55:43.159 [info] request done: requestId: [4d0a28dc-804d-4664-9127-8d3d0265e46d] model deployment ID: []
+2026-08-16 14:55:43.160 [info] ccreq:05dcc5c5.copilotmd | success | gpt-4o-mini-2024-07-18 | 1184ms | [copilotLanguageModelWrapper]
+2026-08-16 14:55:43.633 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:55:43.635 [info] request done: requestId: [91462b5b-8a30-488a-93f2-b59d78213a34] model deployment ID: []
+2026-08-16 14:55:43.635 [info] ccreq:f2a026cb.copilotmd | success | gpt-4o-mini-2024-07-18 | 1251ms | [copilotLanguageModelWrapper]
+2026-08-16 14:55:43.927 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:55:43.929 [info] request done: requestId: [a631d365-d424-447b-b076-28079a1d3030] model deployment ID: []
+2026-08-16 14:55:43.930 [info] ccreq:56c2aa80.copilotmd | success | gpt-4o-mini-2024-07-18 | 1146ms | [copilotLanguageModelWrapper]
+2026-08-16 14:55:51.463 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:55:51.467 [info] ccreq:69a56170.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6616ms | [panel/editAgent]
+2026-08-16 14:55:51.476 [info] [VoiceProgress] fallback request=request_809753e9-3efa-4d77-9177-c22a75362bee phase=planning emitted=false tools=manage_todo_list
+2026-08-16 14:55:52.165 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:55:56.822 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:55:56.840 [info] ccreq:ce298759.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3205ms | [panel/editAgent]
+2026-08-16 14:55:56.846 [info] [VoiceProgress] fallback request=request_809753e9-3efa-4d77-9177-c22a75362bee phase=investigating emitted=false tools=read_file
+2026-08-16 14:55:57.531 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:55:57.928 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8904430000111461ms
+2026-08-16 14:56:00.414 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:56:00.416 [info] request done: requestId: [ca57fd39-6771-422e-bb64-fe2ad2e13d50] model deployment ID: []
+2026-08-16 14:56:00.417 [info] ccreq:aec05a66.copilotmd | success | gpt-4o-mini-2024-07-18 | 676ms | [copilotLanguageModelWrapper]
+2026-08-16 14:56:00.848 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:56:00.850 [info] request done: requestId: [6a5a5b28-4e41-47a2-bf6a-bbd6f5b26ffb] model deployment ID: []
+2026-08-16 14:56:00.851 [info] ccreq:5f2ec7e4.copilotmd | success | gpt-4o-mini-2024-07-18 | 779ms | [copilotLanguageModelWrapper]
+2026-08-16 14:56:01.215 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:56:01.216 [info] request done: requestId: [29c99940-ff99-4438-b45d-5156daa28c1b] model deployment ID: []
+2026-08-16 14:56:01.217 [info] ccreq:53dc1ad1.copilotmd | success | gpt-4o-mini-2024-07-18 | 821ms | [copilotLanguageModelWrapper]
+2026-08-16 14:56:05.647 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:56:05.666 [info] ccreq:0c836753.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3190ms | [panel/editAgent]
+2026-08-16 14:56:05.671 [info] [VoiceProgress] fallback request=request_809753e9-3efa-4d77-9177-c22a75362bee phase=investigating emitted=false tools=read_file
+2026-08-16 14:56:06.331 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:56:09.127 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:56:09.128 [info] request done: requestId: [9b270334-f979-4813-9485-0b21c39fd54b] model deployment ID: []
+2026-08-16 14:56:09.129 [info] ccreq:df39ea7f.copilotmd | success | gpt-4o-mini-2024-07-18 | 686ms | [copilotLanguageModelWrapper]
+2026-08-16 14:56:09.568 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:56:09.569 [info] request done: requestId: [3d72c968-570d-4e18-b7e8-3206d63b9087] model deployment ID: []
+2026-08-16 14:56:09.570 [info] ccreq:1ef3f487.copilotmd | success | gpt-4o-mini-2024-07-18 | 800ms | [copilotLanguageModelWrapper]
+2026-08-16 14:56:09.796 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:56:09.797 [info] request done: requestId: [5138715e-6d83-4810-9b93-46050139b474] model deployment ID: []
+2026-08-16 14:56:09.798 [info] ccreq:219c042f.copilotmd | success | gpt-4o-mini-2024-07-18 | 695ms | [copilotLanguageModelWrapper]
+2026-08-16 14:56:15.260 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:56:15.262 [info] request done: requestId: [b594564c-772f-4c86-a45f-9a090cfa53cf] model deployment ID: []
+2026-08-16 14:56:15.263 [info] ccreq:04b28e8d.copilotmd | success | gpt-4o-mini-2024-07-18 | 723ms | [copilotLanguageModelWrapper]
+2026-08-16 14:56:21.378 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:56:21.392 [info] ccreq:541239c4.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 10339ms | [panel/editAgent]
+2026-08-16 14:56:21.400 [info] [VoiceProgress] fallback request=request_809753e9-3efa-4d77-9177-c22a75362bee phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 14:56:22.201 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:56:31.851 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:56:31.853 [info] request done: requestId: [21ff787e-d003-45b9-99c8-af1130d50d6d] model deployment ID: []
+2026-08-16 14:56:31.854 [info] ccreq:886db48c.copilotmd | success | gpt-4o-mini-2024-07-18 | 674ms | [copilotLanguageModelWrapper]
+2026-08-16 14:56:40.244 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:56:40.248 [info] ccreq:144957a6.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 13867ms | [panel/editAgent]
+2026-08-16 14:56:40.253 [info] [VoiceProgress] fallback request=request_809753e9-3efa-4d77-9177-c22a75362bee phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 14:56:40.924 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:56:50.565 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:56:50.567 [info] request done: requestId: [5fad929d-ad8d-4944-be3c-0ffbbf5f9b3a] model deployment ID: []
+2026-08-16 14:56:50.567 [info] ccreq:80307f88.copilotmd | success | gpt-4o-mini-2024-07-18 | 764ms | [copilotLanguageModelWrapper]
+2026-08-16 14:57:04.966 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:57:04.984 [info] ccreq:09119b58.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 19831ms | [panel/editAgent]
+2026-08-16 14:57:04.990 [info] [VoiceProgress] fallback request=request_809753e9-3efa-4d77-9177-c22a75362bee phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 14:57:05.677 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:57:13.800 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:57:13.817 [info] ccreq:a3e62462.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3764ms | [panel/editAgent]
+2026-08-16 14:57:14.475 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:57:18.196 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:57:18.198 [info] request done: requestId: [b53723fe-009c-4dac-a902-1c6156b69394] model deployment ID: []
+2026-08-16 14:57:18.198 [info] ccreq:1015f144.copilotmd | success | gpt-4o-mini-2024-07-18 | 861ms | [copilotLanguageModelWrapper]
+2026-08-16 14:57:18.323 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:57:18.325 [info] request done: requestId: [7f0f7f3d-8156-4c2d-9836-de0833f33a20] model deployment ID: []
+2026-08-16 14:57:18.325 [info] ccreq:4e9edf2f.copilotmd | success | gpt-4o-mini-2024-07-18 | 650ms | [copilotLanguageModelWrapper]
+2026-08-16 14:57:30.756 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9192570000886917ms
+2026-08-16 14:57:38.014 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:57:38.031 [info] ccreq:b1ab190b.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3388ms | [panel/editAgent]
+2026-08-16 14:57:38.738 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:57:42.254 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:57:42.256 [info] request done: requestId: [0df9239a-6537-4596-9714-9d0bab77e023] model deployment ID: []
+2026-08-16 14:57:42.256 [info] ccreq:0f1d4fd6.copilotmd | success | gpt-4o-mini-2024-07-18 | 956ms | [copilotLanguageModelWrapper]
+2026-08-16 14:58:00.672 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.1982049997895956ms
+2026-08-16 14:58:08.976 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:58:08.993 [info] ccreq:1e6e0bee.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4158ms | [panel/editAgent]
+2026-08-16 14:58:08.999 [info] [VoiceProgress] fallback request=request_809753e9-3efa-4d77-9177-c22a75362bee phase=planning emitted=false tools=manage_todo_list
+2026-08-16 14:58:10.007 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 14:58:16.842 [info] message 0 returned. finish reason: [stop]
+2026-08-16 14:58:16.844 [info] request done: requestId: [1618c692-f807-429f-83d3-ed0602f24f84] model deployment ID: []
+2026-08-16 14:58:16.844 [info] ccreq:8a8bb3a2.copilotmd | success | gpt-4o-mini-2024-07-18 | 728ms | [copilotLanguageModelWrapper]
+2026-08-16 14:58:17.895 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 14:58:17.911 [info] ccreq:1fa1be75.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6480ms | [panel/editAgent]
+2026-08-16 14:58:17.916 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 14:59:38.978 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.874725999776274ms
+2026-08-16 14:59:54.447 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 15:00:37.075 [info] Fetched model metadata in 681ms 62abb3a7-6815-4fca-b3f8-58472421dcbf
+2026-08-16 15:00:37.450 [info] ccreq:f1d0503d.copilotmd | markdown
+2026-08-16 15:00:37.473 [info] [VoiceProgress] loop request=request_08d40c1b-ccb2-4956-8c2c-ea4d0e57986e configured=true voice=false subagent=false stream=true
+2026-08-16 15:00:38.165 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:00:45.360 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:00:45.364 [info] ccreq:b4edc956.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5522ms | [panel/editAgent]
+2026-08-16 15:00:45.376 [info] [VoiceProgress] fallback request=request_08d40c1b-ccb2-4956-8c2c-ea4d0e57986e phase=planning emitted=false tools=manage_todo_list
+2026-08-16 15:00:46.051 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:00:50.961 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:00:50.985 [info] ccreq:a7669b24.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3522ms | [panel/editAgent]
+2026-08-16 15:00:50.996 [info] [VoiceProgress] fallback request=request_08d40c1b-ccb2-4956-8c2c-ea4d0e57986e phase=investigating emitted=false tools=read_file
+2026-08-16 15:00:51.675 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:00:54.863 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:00:54.866 [info] request done: requestId: [239c6045-aef5-4f1e-ae81-aefa5b4f1ab1] model deployment ID: []
+2026-08-16 15:00:54.867 [info] ccreq:b7eadbe2.copilotmd | success | gpt-4o-mini-2024-07-18 | 999ms | [copilotLanguageModelWrapper]
+2026-08-16 15:00:55.404 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:00:55.406 [info] request done: requestId: [1ebd2b15-87df-437f-ba56-37e2420b27c7] model deployment ID: []
+2026-08-16 15:00:55.407 [info] ccreq:94e8cd59.copilotmd | success | gpt-4o-mini-2024-07-18 | 1197ms | [copilotLanguageModelWrapper]
+2026-08-16 15:01:03.175 [info] Logged in as lynnskywave69-ops
+2026-08-16 15:01:03.666 [info] Got Copilot token for lynnskywave69-ops
+2026-08-16 15:01:03.666 [info] Copilot Chat: 0.61.0, VS Code: 1.133.0
+2026-08-16 15:01:03.686 [info] copilot token sku: free_limited_copilot
+2026-08-16 15:01:03.686 [info] [code-referencing] Public code references are enabled.
+2026-08-16 15:01:03.979 [info] Fetched model metadata in 297ms 410a2bbf-37ec-4908-9a1d-219ff843f49f
+2026-08-16 15:01:04.170 [info] ccreq:7350814a.copilotmd | markdown
+2026-08-16 15:01:07.747 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.1263439999893308ms
+2026-08-16 15:01:08.875 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6957199997268617ms
+2026-08-16 15:01:19.547 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:01:19.564 [info] ccreq:dc67661d.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 22128ms | [panel/editAgent]
+2026-08-16 15:01:19.609 [info] [VoiceProgress] fallback request=request_08d40c1b-ccb2-4956-8c2c-ea4d0e57986e phase=editing emitted=false tools=create_file
+2026-08-16 15:01:20.308 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:01:35.444 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:01:35.467 [info] ccreq:30afe822.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 10015ms | [panel/editAgent]
+2026-08-16 15:01:35.479 [info] [VoiceProgress] fallback request=request_08d40c1b-ccb2-4956-8c2c-ea4d0e57986e phase=editing emitted=false tools=create_file
+2026-08-16 15:01:36.159 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:01:54.004 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:01:54.008 [info] ccreq:83aee284.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 12731ms | [panel/editAgent]
+2026-08-16 15:01:54.017 [info] [VoiceProgress] fallback request=request_08d40c1b-ccb2-4956-8c2c-ea4d0e57986e phase=editing emitted=false tools=create_file
+2026-08-16 15:01:54.669 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:02:05.838 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:02:05.840 [info] request done: requestId: [ede28589-acf1-4e37-a10a-d5ee8e9a4e63] model deployment ID: []
+2026-08-16 15:02:05.841 [info] ccreq:30c1d105.copilotmd | success | gpt-4o-mini-2024-07-18 | 1173ms | [copilotLanguageModelWrapper]
+2026-08-16 15:02:06.174 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:02:06.202 [info] ccreq:44863209.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6322ms | [panel/editAgent]
+2026-08-16 15:02:06.208 [info] [VoiceProgress] fallback request=request_08d40c1b-ccb2-4956-8c2c-ea4d0e57986e phase=editing emitted=false tools=replace_string_in_file,replace_string_in_file
+2026-08-16 15:02:06.888 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:02:17.819 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:02:17.845 [info] ccreq:c5ea79bb.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3635ms | [panel/editAgent]
+2026-08-16 15:02:17.850 [info] [VoiceProgress] fallback request=request_08d40c1b-ccb2-4956-8c2c-ea4d0e57986e phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 15:02:18.523 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:02:27.229 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:02:27.230 [info] request done: requestId: [f21551f4-b917-4c9e-93d4-e602ed9ff0bc] model deployment ID: []
+2026-08-16 15:02:27.231 [info] ccreq:24934d55.copilotmd | success | gpt-4o-mini-2024-07-18 | 790ms | [copilotLanguageModelWrapper]
+2026-08-16 15:02:39.656 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:02:39.687 [info] ccreq:12d1fb4c.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 17038ms | [panel/editAgent]
+2026-08-16 15:02:39.692 [info] [VoiceProgress] fallback request=request_08d40c1b-ccb2-4956-8c2c-ea4d0e57986e phase=editing emitted=false tools=create_file
+2026-08-16 15:02:40.403 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:02:49.581 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:02:49.599 [info] ccreq:015d6d3f.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4017ms | [panel/editAgent]
+2026-08-16 15:02:50.290 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:02:53.918 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:02:53.930 [info] ccreq:fa438db9.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 72973ms | [summarizeConversationHistory]
+2026-08-16 15:02:53.931 [error] Error: Background summarization: no <summary> tags found in response
+	at /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:2822:20547
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5): [ConversationHistorySummarizer] background compaction failed
+2026-08-16 15:02:54.225 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:02:54.226 [info] request done: requestId: [7a4be85b-0d4d-478f-a397-0b36586e626b] model deployment ID: []
+2026-08-16 15:02:54.227 [info] ccreq:732e46cf.copilotmd | success | gpt-4o-mini-2024-07-18 | 858ms | [copilotLanguageModelWrapper]
+2026-08-16 15:02:54.415 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:02:54.418 [info] request done: requestId: [1b9aab58-3302-4b41-8724-14ea3044885c] model deployment ID: []
+2026-08-16 15:02:54.419 [info] ccreq:bba0e391.copilotmd | success | gpt-4o-mini-2024-07-18 | 712ms | [copilotLanguageModelWrapper]
+2026-08-16 15:03:01.126 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9455129997804761ms
+2026-08-16 15:03:07.924 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:03:07.947 [info] ccreq:eb8090c6.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3563ms | [panel/editAgent]
+2026-08-16 15:03:08.653 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:03:11.966 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:03:11.967 [info] request done: requestId: [b337fcd0-6b82-41a7-a903-787b9f872c27] model deployment ID: []
+2026-08-16 15:03:11.968 [info] ccreq:f90c200a.copilotmd | success | gpt-4o-mini-2024-07-18 | 781ms | [copilotLanguageModelWrapper]
+2026-08-16 15:03:18.281 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:03:18.302 [info] ccreq:03a11ddf.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3611ms | [panel/editAgent]
+2026-08-16 15:03:19.006 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:03:22.694 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:03:22.695 [info] request done: requestId: [e607dca8-97ec-4830-aff7-43737f4bc5bd] model deployment ID: []
+2026-08-16 15:03:22.696 [info] ccreq:7af6f0f9.copilotmd | success | gpt-4o-mini-2024-07-18 | 850ms | [copilotLanguageModelWrapper]
+2026-08-16 15:03:31.537 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:03:31.553 [info] ccreq:e4596a18.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4635ms | [panel/editAgent]
+2026-08-16 15:03:31.560 [info] [VoiceProgress] fallback request=request_08d40c1b-ccb2-4956-8c2c-ea4d0e57986e phase=planning emitted=false tools=manage_todo_list
+2026-08-16 15:03:32.213 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:03:38.040 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:03:38.042 [info] request done: requestId: [86fd9a88-f7f9-4ca9-9387-267a3d270373] model deployment ID: []
+2026-08-16 15:03:38.042 [info] ccreq:7a56ef36.copilotmd | success | gpt-4o-mini-2024-07-18 | 701ms | [copilotLanguageModelWrapper]
+2026-08-16 15:03:41.092 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:03:41.107 [info] ccreq:f8c20a2d.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 7514ms | [panel/editAgent]
+2026-08-16 15:03:42.923 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 15:04:30.226 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:04:30.253 [info] ccreq:a3f789f0.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 86213ms | [summarizeConversationHistory]
+2026-08-16 15:05:24.083 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.853023000061512ms
+2026-08-16 15:06:43.524 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6443529999814928ms
+2026-08-16 15:06:51.631 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6217509997077286ms
+2026-08-16 15:07:57.042 [info] [VoiceProgress] loop request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 configured=true voice=false subagent=false stream=true
+2026-08-16 15:07:57.116 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:07:57.118 [info] request done: requestId: [2bf53ca8-b2a4-4d1e-a23c-c9bd6d8870c8] model deployment ID: []
+2026-08-16 15:07:57.119 [info] ccreq:26a1f2b6.copilotmd | success | gpt-4o-mini-2024-07-18 | 1203ms | [copilotLanguageModelWrapper]
+2026-08-16 15:07:57.727 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:07:58.295 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:07:58.298 [info] request done: requestId: [a9b9fcd7-da5a-4dbb-8496-f3d2f35d617f] model deployment ID: []
+2026-08-16 15:07:58.299 [info] ccreq:c580cb96.copilotmd | success | gpt-4o-mini-2024-07-18 | 1233ms | [copilotLanguageModelWrapper]
+2026-08-16 15:07:58.362 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:07:58.364 [info] request done: requestId: [b09af715-cbb4-49ee-a6b0-18292034c9c9] model deployment ID: []
+2026-08-16 15:07:58.365 [info] ccreq:3cbc42ea.copilotmd | success | gpt-4o-mini-2024-07-18 | 867ms | [copilotLanguageModelWrapper]
+2026-08-16 15:07:59.112 [info] ccreq:0d6c50ea.copilotmd | markdown
+2026-08-16 15:08:08.419 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:08:08.426 [info] ccreq:9528e78b.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 8985ms | [panel/editAgent]
+2026-08-16 15:08:08.439 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=investigating emitted=false tools=read_file,read_file
+2026-08-16 15:08:08.537 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:08:08.539 [info] request done: requestId: [9deff4de-52c9-4792-85b7-bdca121188da] model deployment ID: []
+2026-08-16 15:08:08.539 [info] ccreq:9453d1f8.copilotmd | success | gpt-4o-mini-2024-07-18 | 722ms | [copilotLanguageModelWrapper]
+2026-08-16 15:08:09.101 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:08:11.780 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8086800002492964ms
+2026-08-16 15:08:12.079 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:08:12.081 [info] request done: requestId: [c26ac774-df9d-44e0-8a65-42c1557df69d] model deployment ID: []
+2026-08-16 15:08:12.082 [info] ccreq:e9575e38.copilotmd | success | gpt-4o-mini-2024-07-18 | 784ms | [copilotLanguageModelWrapper]
+2026-08-16 15:08:12.421 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:08:12.422 [info] request done: requestId: [98387cc0-3c4c-491f-9499-230c71f9f802] model deployment ID: []
+2026-08-16 15:08:12.422 [info] ccreq:9ccd7fb5.copilotmd | success | gpt-4o-mini-2024-07-18 | 797ms | [copilotLanguageModelWrapper]
+2026-08-16 15:08:18.816 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7215680000372231ms
+2026-08-16 15:08:21.576 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:08:21.578 [info] ccreq:15adb2b3.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6761ms | [panel/editAgent]
+2026-08-16 15:08:21.588 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=editing emitted=false tools=multi_replace_string_in_file
+2026-08-16 15:08:22.272 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:08:25.175 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8973870002664626ms
+2026-08-16 15:08:26.047 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:08:26.049 [info] request done: requestId: [8620eae2-94fd-422a-9468-6f92d2a366a2] model deployment ID: []
+2026-08-16 15:08:26.050 [info] ccreq:fbed1079.copilotmd | success | gpt-4o-mini-2024-07-18 | 834ms | [copilotLanguageModelWrapper]
+2026-08-16 15:08:26.345 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:08:26.347 [info] request done: requestId: [22d682a5-85e7-499c-8bf6-99d26196780f] model deployment ID: []
+2026-08-16 15:08:26.347 [info] ccreq:de39bd8b.copilotmd | success | gpt-4o-mini-2024-07-18 | 764ms | [copilotLanguageModelWrapper]
+2026-08-16 15:08:32.463 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:08:32.472 [info] ccreq:1d1be826.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3110ms | [panel/editAgent]
+2026-08-16 15:08:32.477 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=investigating emitted=false tools=read_file
+2026-08-16 15:08:33.128 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:08:36.008 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:08:36.010 [info] request done: requestId: [dd15363c-51fa-41a2-8b43-bf9fc7dcc864] model deployment ID: []
+2026-08-16 15:08:36.010 [info] ccreq:981ced35.copilotmd | success | gpt-4o-mini-2024-07-18 | 846ms | [copilotLanguageModelWrapper]
+2026-08-16 15:08:41.164 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:08:41.175 [info] ccreq:d79426e7.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2820ms | [panel/editAgent]
+2026-08-16 15:08:41.180 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=investigating emitted=false tools=read_file
+2026-08-16 15:08:41.843 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:08:44.686 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:08:44.688 [info] request done: requestId: [e9626001-5f64-4a4c-8872-0aa9651498e3] model deployment ID: []
+2026-08-16 15:08:44.689 [info] ccreq:4e86ae22.copilotmd | success | gpt-4o-mini-2024-07-18 | 817ms | [copilotLanguageModelWrapper]
+2026-08-16 15:08:56.728 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:08:56.738 [info] ccreq:7c6141a0.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 10476ms | [panel/editAgent]
+2026-08-16 15:08:56.743 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 15:08:57.406 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:09:04.757 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:09:04.759 [info] request done: requestId: [f15c2328-41dc-497b-be9a-57cba99f11e9] model deployment ID: []
+2026-08-16 15:09:04.760 [info] ccreq:e9b92c3a.copilotmd | success | gpt-4o-mini-2024-07-18 | 685ms | [copilotLanguageModelWrapper]
+2026-08-16 15:09:05.109 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:09:05.117 [info] ccreq:52bfe72f.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3590ms | [panel/editAgent]
+2026-08-16 15:09:05.122 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 15:09:05.813 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:09:09.996 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:09:10.005 [info] ccreq:4d8d5945.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3146ms | [panel/editAgent]
+2026-08-16 15:09:10.012 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 15:09:10.711 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:09:18.521 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:09:18.523 [info] request done: requestId: [f93d37f9-a167-4418-90dc-532119349890] model deployment ID: []
+2026-08-16 15:09:18.523 [info] ccreq:35e0f581.copilotmd | success | gpt-4o-mini-2024-07-18 | 693ms | [copilotLanguageModelWrapper]
+2026-08-16 15:09:21.698 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:09:21.701 [info] ccreq:1948c802.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6842ms | [panel/editAgent]
+2026-08-16 15:09:21.705 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 15:09:22.399 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:09:29.564 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:09:29.575 [info] ccreq:39e8113b.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3092ms | [panel/editAgent]
+2026-08-16 15:09:29.579 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=investigating emitted=false tools=read_file
+2026-08-16 15:09:29.902 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:09:29.904 [info] request done: requestId: [2f83b1c8-cf7b-4ed9-a1b9-14c652158896] model deployment ID: []
+2026-08-16 15:09:29.904 [info] ccreq:25c8a510.copilotmd | success | gpt-4o-mini-2024-07-18 | 641ms | [copilotLanguageModelWrapper]
+2026-08-16 15:09:30.246 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:09:33.066 [info] ccreq:8627c614.copilotmd | cancelled | gpt-4o-mini-2024-07-18 | 642ms | [copilotLanguageModelWrapper]
+2026-08-16 15:09:37.513 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:09:37.522 [info] ccreq:115065a8.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2965ms | [panel/editAgent]
+2026-08-16 15:09:37.527 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=investigating emitted=false tools=read_file
+2026-08-16 15:09:38.182 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:09:41.224 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:09:41.229 [info] request done: requestId: [e04ea0cc-0f76-4f59-b210-cdd1e438d8bb] model deployment ID: []
+2026-08-16 15:09:41.229 [info] ccreq:a8084f9e.copilotmd | success | gpt-4o-mini-2024-07-18 | 792ms | [copilotLanguageModelWrapper]
+2026-08-16 15:09:54.385 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 15:09:55.987 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0070380000397563ms
+2026-08-16 15:10:02.034 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:10:02.040 [info] ccreq:eb373c41.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3318ms | [panel/editAgent]
+2026-08-16 15:10:02.044 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=investigating emitted=false tools=read_file
+2026-08-16 15:10:02.719 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:10:05.634 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:10:05.636 [info] request done: requestId: [8396bc51-7bec-4bc3-b0ae-5d5bb9885736] model deployment ID: []
+2026-08-16 15:10:05.637 [info] ccreq:05d7897d.copilotmd | success | gpt-4o-mini-2024-07-18 | 788ms | [copilotLanguageModelWrapper]
+2026-08-16 15:10:25.531 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9801509999670088ms
+2026-08-16 15:10:30.140 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7775320000946522ms
+2026-08-16 15:10:49.597 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.2473800000734627ms
+2026-08-16 15:11:01.802 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6712640002369881ms
+2026-08-16 15:11:13.979 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:11:13.996 [info] ccreq:eb6e8b4d.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 45673ms | [panel/editAgent]
+2026-08-16 15:11:14.002 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 15:11:14.264 [info] Fetched model metadata in 263ms b18c2e92-5ccf-4a09-9a06-cad2a30ce572
+2026-08-16 15:11:14.271 [info] ccreq:505447c5.copilotmd | markdown
+2026-08-16 15:11:14.982 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:11:23.407 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:11:23.409 [info] request done: requestId: [a4482859-da5c-46bd-88b6-bf9a164be3e4] model deployment ID: []
+2026-08-16 15:11:23.410 [info] ccreq:787fc41f.copilotmd | success | gpt-4o-mini-2024-07-18 | 657ms | [copilotLanguageModelWrapper]
+2026-08-16 15:11:24.543 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:11:24.552 [info] ccreq:9799cd86.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5189ms | [panel/editAgent]
+2026-08-16 15:11:24.556 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=editing emitted=false tools=replace_string_in_file,replace_string_in_file,replace_string_in_file
+2026-08-16 15:11:25.206 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:11:31.858 [info] [CopilotCLIChatSessionContentProvider] listSessions took 3.519536000210792ms
+2026-08-16 15:11:34.613 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.5648229997605085ms
+2026-08-16 15:11:36.745 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:11:36.747 [info] request done: requestId: [d1348521-f675-4edf-a0c9-909774e02e45] model deployment ID: []
+2026-08-16 15:11:36.747 [info] ccreq:ea9c266c.copilotmd | success | gpt-4o-mini-2024-07-18 | 680ms | [copilotLanguageModelWrapper]
+2026-08-16 15:11:36.771 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:11:36.784 [info] ccreq:434c64b6.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3239ms | [panel/editAgent]
+2026-08-16 15:11:36.789 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=investigating emitted=false tools=grep_search
+2026-08-16 15:11:37.449 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:11:42.109 [info] [CopilotCLIChatSessionContentProvider] listSessions took 11.745045999996364ms
+2026-08-16 15:11:44.825 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:11:44.833 [info] ccreq:d6fcfcfa.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2677ms | [panel/editAgent]
+2026-08-16 15:11:44.838 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=investigating emitted=false tools=read_file
+2026-08-16 15:11:45.518 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:11:52.637 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:11:52.645 [info] ccreq:ecb2ac9d.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2388ms | [panel/editAgent]
+2026-08-16 15:11:52.651 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=investigating emitted=false tools=grep_search
+2026-08-16 15:11:53.537 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:12:00.733 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:12:00.736 [info] ccreq:d1cab53d.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2642ms | [panel/editAgent]
+2026-08-16 15:12:00.744 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=investigating emitted=false tools=grep_search
+2026-08-16 15:12:01.412 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:12:08.773 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:12:08.783 [info] ccreq:5f8b0641.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2857ms | [panel/editAgent]
+2026-08-16 15:12:08.787 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=investigating emitted=false tools=read_file
+2026-08-16 15:12:09.451 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:12:12.408 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:12:12.410 [info] request done: requestId: [facdf73d-fae7-435d-bd3d-4db688516b1e] model deployment ID: []
+2026-08-16 15:12:12.411 [info] ccreq:7ec00783.copilotmd | success | gpt-4o-mini-2024-07-18 | 837ms | [copilotLanguageModelWrapper]
+2026-08-16 15:12:38.544 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0188649999909103ms
+2026-08-16 15:12:46.489 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:12:46.498 [info] ccreq:ec980399.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5057ms | [panel/editAgent]
+2026-08-16 15:12:46.504 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 15:12:47.211 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:12:54.796 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:12:54.804 [info] ccreq:150a45fe.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3416ms | [panel/editAgent]
+2026-08-16 15:12:54.925 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:12:54.927 [info] request done: requestId: [3dd81fcd-a4d6-479c-b60a-6fdafe0e48e4] model deployment ID: []
+2026-08-16 15:12:54.927 [info] ccreq:da486ea3.copilotmd | success | gpt-4o-mini-2024-07-18 | 628ms | [copilotLanguageModelWrapper]
+2026-08-16 15:12:55.551 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:12:56.603 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6468480001203716ms
+2026-08-16 15:12:59.486 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:12:59.488 [info] request done: requestId: [4409b4d5-06ad-48f0-b33f-5d33892f6df0] model deployment ID: []
+2026-08-16 15:12:59.488 [info] ccreq:c747c25a.copilotmd | success | gpt-4o-mini-2024-07-18 | 926ms | [copilotLanguageModelWrapper]
+2026-08-16 15:13:05.901 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:13:05.910 [info] ccreq:1a840612.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3292ms | [panel/editAgent]
+2026-08-16 15:13:05.914 [info] [VoiceProgress] fallback request=request_986301ec-6eaa-45ce-b1ca-b1cf86ccb241 phase=validating emitted=false tools=run_in_terminal
+2026-08-16 15:13:06.570 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:13:10.156 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:13:10.159 [info] request done: requestId: [56c7e3a2-0b9a-4f98-af5e-4ecda048b6d1] model deployment ID: []
+2026-08-16 15:13:10.161 [info] ccreq:a45b16ef.copilotmd | success | gpt-4o-mini-2024-07-18 | 815ms | [copilotLanguageModelWrapper]
+2026-08-16 15:13:26.697 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.2065039998851717ms
+2026-08-16 15:13:33.681 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:13:33.690 [info] ccreq:c2bf39ae.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3677ms | [panel/editAgent]
+2026-08-16 15:13:34.353 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:13:37.879 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:13:37.881 [info] request done: requestId: [f6f331f9-677e-43a6-bee7-01aaac8a1486] model deployment ID: []
+2026-08-16 15:13:37.881 [info] ccreq:b9dc497a.copilotmd | success | gpt-4o-mini-2024-07-18 | 988ms | [copilotLanguageModelWrapper]
+2026-08-16 15:13:44.821 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:13:44.834 [info] ccreq:76e27cf0.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2848ms | [panel/editAgent]
+2026-08-16 15:13:45.496 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:13:48.856 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:13:48.858 [info] request done: requestId: [b38b0a50-11ed-42a4-a246-62e1b5ece00a] model deployment ID: []
+2026-08-16 15:13:48.859 [info] ccreq:4a49cc6c.copilotmd | success | gpt-4o-mini-2024-07-18 | 834ms | [copilotLanguageModelWrapper]
+2026-08-16 15:13:58.412 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-08-16 15:13:58.420 [info] ccreq:a94289b8.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6615ms | [panel/editAgent]
+2026-08-16 15:13:59.072 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 15:14:22.077 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0472960001789033ms
+2026-08-16 15:17:31.229 [info] [VoiceProgress] loop request=request_27ce7285-9cc0-415d-966e-c241021b905d configured=true voice=false subagent=false stream=true
+2026-08-16 15:17:31.914 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:17:43.493 [info] ccreq:5496031f.copilotmd | success | mai-code-1.1-flash | 9804ms | [panel/editAgent]
+2026-08-16 15:17:43.512 [info] [VoiceProgress] fallback request=request_27ce7285-9cc0-415d-966e-c241021b905d phase=investigating emitted=false tools=read_file,read_file
+2026-08-16 15:17:44.181 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:17:47.113 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:17:47.115 [info] request done: requestId: [8d9f51db-8449-4215-a25e-32cecce51e9a] model deployment ID: []
+2026-08-16 15:17:47.116 [info] ccreq:fbcbb4b5.copilotmd | success | gpt-4o-mini-2024-07-18 | 780ms | [copilotLanguageModelWrapper]
+2026-08-16 15:17:48.012 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:17:48.014 [info] request done: requestId: [157809c6-067d-4621-8299-1ea22c8e465c] model deployment ID: []
+2026-08-16 15:17:48.014 [info] ccreq:6a4174c1.copilotmd | success | gpt-4o-mini-2024-07-18 | 1348ms | [copilotLanguageModelWrapper]
+2026-08-16 15:17:57.486 [info] ccreq:24321cd5.copilotmd | success | mai-code-1.1-flash | 6050ms | [panel/editAgent]
+2026-08-16 15:17:57.490 [info] [VoiceProgress] fallback request=request_27ce7285-9cc0-415d-966e-c241021b905d phase=investigating emitted=false tools=read_file
+2026-08-16 15:17:58.148 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:17:59.745 [error] Error from tool read_file with args {"filePath":"/tmp/aqua-invest/data/users.json","startLine":1,"endLine":220}: File /tmp/aqua-invest/data/users.json does not exist: Error: File /tmp/aqua-invest/data/users.json does not exist
+	at Wse (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:2553:3681)
+	at async kPe.prepareInvocation (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/copilot/dist/extension.js:5934:4201)
+	at async UP.$prepareToolInvocation (file:///vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/out/vs/workbench/api/node/extensionHostProcess.js:656:5344)
+2026-08-16 15:18:06.342 [info] ccreq:ae53f291.copilotmd | success | mai-code-1.1-flash | 6264ms | [panel/editAgent]
+2026-08-16 15:18:06.347 [info] [VoiceProgress] fallback request=request_27ce7285-9cc0-415d-966e-c241021b905d phase=investigating emitted=false tools=list_dir
+2026-08-16 15:18:07.007 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:18:09.638 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:18:09.639 [info] request done: requestId: [5b86e102-b523-4528-a9d4-58aaf5832ff2] model deployment ID: []
+2026-08-16 15:18:09.640 [info] ccreq:2c231fba.copilotmd | success | gpt-4o-mini-2024-07-18 | 783ms | [copilotLanguageModelWrapper]
+2026-08-16 15:18:20.707 [info] ccreq:1eb0c035.copilotmd | success | mai-code-1.1-flash | 7982ms | [panel/editAgent]
+2026-08-16 15:18:20.712 [info] [VoiceProgress] fallback request=request_27ce7285-9cc0-415d-966e-c241021b905d phase=investigating emitted=false tools=grep_search
+2026-08-16 15:18:21.363 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:18:32.621 [info] ccreq:f8864e4a.copilotmd | success | mai-code-1.1-flash | 7149ms | [panel/editAgent]
+2026-08-16 15:18:32.628 [info] [VoiceProgress] fallback request=request_27ce7285-9cc0-415d-966e-c241021b905d phase=investigating emitted=false tools=grep_search
+2026-08-16 15:18:33.288 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:18:42.227 [info] ccreq:b7c70a55.copilotmd | success | mai-code-1.1-flash | 4888ms | [panel/editAgent]
+2026-08-16 15:18:42.231 [info] [VoiceProgress] fallback request=request_27ce7285-9cc0-415d-966e-c241021b905d phase=investigating emitted=false tools=read_file,read_file
+2026-08-16 15:18:43.016 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:18:45.817 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:18:45.819 [info] request done: requestId: [0d81454a-87ee-42ce-8c92-6eec20a15a85] model deployment ID: []
+2026-08-16 15:18:45.819 [info] ccreq:cab12a40.copilotmd | success | gpt-4o-mini-2024-07-18 | 719ms | [copilotLanguageModelWrapper]
+2026-08-16 15:18:46.269 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:18:46.270 [info] request done: requestId: [4208ed7f-9059-476f-85d0-0e0a2ad08ba8] model deployment ID: []
+2026-08-16 15:18:46.271 [info] ccreq:a3e2dc32.copilotmd | success | gpt-4o-mini-2024-07-18 | 795ms | [copilotLanguageModelWrapper]
+2026-08-16 15:18:46.614 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:18:46.616 [info] request done: requestId: [51db7f9a-1f61-4e5c-8992-b612b2169fba] model deployment ID: []
+2026-08-16 15:18:46.616 [info] ccreq:9e94dca7.copilotmd | success | gpt-4o-mini-2024-07-18 | 795ms | [copilotLanguageModelWrapper]
+2026-08-16 15:18:53.299 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8435050002299249ms
+2026-08-16 15:19:10.037 [info] ccreq:98b8fa05.copilotmd | success | mai-code-1.1-flash | 13546ms | [panel/editAgent]
+2026-08-16 15:19:10.043 [info] [VoiceProgress] fallback request=request_27ce7285-9cc0-415d-966e-c241021b905d phase=editing emitted=false tools=multi_replace_string_in_file
+2026-08-16 15:19:10.749 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:19:11.170 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6674859998747706ms
+2026-08-16 15:19:22.536 [info] ccreq:d9967bb0.copilotmd | success | mai-code-1.1-flash | 5605ms | [panel/editAgent]
+2026-08-16 15:19:22.542 [info] [VoiceProgress] fallback request=request_27ce7285-9cc0-415d-966e-c241021b905d phase=validating emitted=false tools=run_in_terminal
+2026-08-16 15:19:23.224 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:19:26.513 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:19:26.515 [info] request done: requestId: [6411189d-e871-41d9-8e4f-f099719b6563] model deployment ID: []
+2026-08-16 15:19:26.515 [info] ccreq:b48bc780.copilotmd | success | gpt-4o-mini-2024-07-18 | 761ms | [copilotLanguageModelWrapper]
+2026-08-16 15:19:26.813 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:19:26.815 [info] request done: requestId: [3a7e3274-f032-40ab-9b8e-11590d79c365] model deployment ID: []
+2026-08-16 15:19:26.815 [info] ccreq:1107c563.copilotmd | success | gpt-4o-mini-2024-07-18 | 729ms | [copilotLanguageModelWrapper]
+2026-08-16 15:19:38.638 [info] ccreq:39cdba12.copilotmd | success | mai-code-1.1-flash | 6183ms | [panel/editAgent]
+2026-08-16 15:19:39.921 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 15:19:54.251 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 15:23:49.171 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9352270001545548ms
+2026-08-16 15:24:57.839 [info] [CopilotCLIChatSessionContentProvider] listSessions took 2.0318950000219047ms
+2026-08-16 15:29:29.148 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6141880005598068ms
+2026-08-16 15:29:54.245 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 15:30:11.481 [info] Logged in as lynnskywave69-ops
+2026-08-16 15:30:11.978 [info] Got Copilot token for lynnskywave69-ops
+2026-08-16 15:30:11.978 [info] Copilot Chat: 0.61.0, VS Code: 1.133.0
+2026-08-16 15:30:11.996 [info] copilot token sku: free_limited_copilot
+2026-08-16 15:30:11.996 [info] [code-referencing] Public code references are enabled.
+2026-08-16 15:30:12.834 [info] Fetched model metadata in 3338ms 05035f89-9be3-4d53-bf53-54ef269b09da
+2026-08-16 15:30:13.203 [info] ccreq:628de74f.copilotmd | markdown
+2026-08-16 15:30:13.221 [info] [VoiceProgress] loop request=request_56f2183c-65a6-4ef1-b49d-fd3b57daa6cb configured=true voice=false subagent=false stream=true
+2026-08-16 15:30:13.907 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:30:21.921 [info] ccreq:422d0d4e.copilotmd | success | mai-code-1.1-flash | 5964ms | [panel/editAgent]
+2026-08-16 15:30:21.932 [info] [VoiceProgress] fallback request=request_56f2183c-65a6-4ef1-b49d-fd3b57daa6cb phase=investigating emitted=false tools=grep_search,grep_search
+2026-08-16 15:30:22.597 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:30:31.718 [info] ccreq:fa1d287a.copilotmd | success | mai-code-1.1-flash | 5005ms | [panel/editAgent]
+2026-08-16 15:30:31.723 [info] [VoiceProgress] fallback request=request_56f2183c-65a6-4ef1-b49d-fd3b57daa6cb phase=investigating emitted=false tools=read_file
+2026-08-16 15:30:32.395 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:30:35.304 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:30:35.308 [info] request done: requestId: [ed7db905-337f-44d0-8a66-b521dc032956] model deployment ID: []
+2026-08-16 15:30:35.309 [info] ccreq:ec9d1467.copilotmd | success | gpt-4o-mini-2024-07-18 | 738ms | [copilotLanguageModelWrapper]
+2026-08-16 15:30:36.190 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:30:36.192 [info] request done: requestId: [583e50f2-6aea-4a80-b0d0-dc86cd613d4e] model deployment ID: []
+2026-08-16 15:30:36.192 [info] ccreq:fc32bdfa.copilotmd | success | gpt-4o-mini-2024-07-18 | 1283ms | [copilotLanguageModelWrapper]
+2026-08-16 15:30:55.244 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8894719993695617ms
+2026-08-16 15:31:05.197 [info] ccreq:26784f59.copilotmd | success | mai-code-1.1-flash | 6038ms | [panel/editAgent]
+2026-08-16 15:31:05.203 [info] [VoiceProgress] fallback request=request_56f2183c-65a6-4ef1-b49d-fd3b57daa6cb phase=investigating emitted=false tools=read_file
+2026-08-16 15:31:05.849 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:31:08.730 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:31:08.732 [info] request done: requestId: [1576b4f7-fd99-4487-a903-134ad5f436d0] model deployment ID: []
+2026-08-16 15:31:08.733 [info] ccreq:92d0bffb.copilotmd | success | gpt-4o-mini-2024-07-18 | 818ms | [copilotLanguageModelWrapper]
+2026-08-16 15:31:16.495 [info] ccreq:27a5643d.copilotmd | success | mai-code-1.1-flash | 5035ms | [panel/editAgent]
+2026-08-16 15:31:16.506 [info] [VoiceProgress] fallback request=request_56f2183c-65a6-4ef1-b49d-fd3b57daa6cb phase=investigating emitted=false tools=read_file
+2026-08-16 15:31:17.166 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:31:20.045 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:31:20.047 [info] request done: requestId: [c40c28f2-4037-429d-892a-51fbaa6a89bb] model deployment ID: []
+2026-08-16 15:31:20.047 [info] ccreq:190eb5da.copilotmd | success | gpt-4o-mini-2024-07-18 | 782ms | [copilotLanguageModelWrapper]
+2026-08-16 15:32:01.236 [info] ccreq:b44dd644.copilotmd | success | mai-code-1.1-flash | 38708ms | [panel/editAgent]
+2026-08-16 15:32:01.244 [info] [VoiceProgress] fallback request=request_56f2183c-65a6-4ef1-b49d-fd3b57daa6cb phase=editing emitted=false tools=multi_replace_string_in_file
+2026-08-16 15:32:01.914 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:32:15.464 [info] ccreq:521d7ca6.copilotmd | success | mai-code-1.1-flash | 4890ms | [panel/editAgent]
+2026-08-16 15:32:15.469 [info] [VoiceProgress] fallback request=request_56f2183c-65a6-4ef1-b49d-fd3b57daa6cb phase=investigating emitted=false tools=read_file
+2026-08-16 15:32:16.126 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:32:19.208 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:32:19.210 [info] request done: requestId: [f12cfa4f-1682-4ca5-8450-dedded83a168] model deployment ID: []
+2026-08-16 15:32:19.211 [info] ccreq:ff926393.copilotmd | success | gpt-4o-mini-2024-07-18 | 811ms | [copilotLanguageModelWrapper]
+2026-08-16 15:32:19.535 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:32:19.537 [info] request done: requestId: [5f17df8e-7886-41ad-b2d2-2203a264c8b8] model deployment ID: []
+2026-08-16 15:32:19.538 [info] ccreq:d2e7618d.copilotmd | success | gpt-4o-mini-2024-07-18 | 802ms | [copilotLanguageModelWrapper]
+2026-08-16 15:32:47.276 [info] ccreq:9de086ef.copilotmd | success | mai-code-1.1-flash | 2694ms | [panel/editAgent]
+2026-08-16 15:32:47.284 [info] [VoiceProgress] fallback request=request_56f2183c-65a6-4ef1-b49d-fd3b57daa6cb phase=investigating emitted=false tools=grep_search
+2026-08-16 15:32:47.947 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:32:57.081 [info] ccreq:5a33e258.copilotmd | success | mai-code-1.1-flash | 4786ms | [panel/editAgent]
+2026-08-16 15:32:57.088 [info] [VoiceProgress] fallback request=request_56f2183c-65a6-4ef1-b49d-fd3b57daa6cb phase=investigating emitted=false tools=grep_search
+2026-08-16 15:32:57.795 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:33:05.317 [info] ccreq:b08b666b.copilotmd | success | mai-code-1.1-flash | 3330ms | [panel/editAgent]
+2026-08-16 15:33:05.322 [info] [VoiceProgress] fallback request=request_56f2183c-65a6-4ef1-b49d-fd3b57daa6cb phase=investigating emitted=false tools=read_file
+2026-08-16 15:33:06.001 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:33:08.908 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:33:08.910 [info] request done: requestId: [9a9a953d-1454-4c82-aaa7-80d0acbbf8ab] model deployment ID: []
+2026-08-16 15:33:08.910 [info] ccreq:5eee12dc.copilotmd | success | gpt-4o-mini-2024-07-18 | 725ms | [copilotLanguageModelWrapper]
+2026-08-16 15:33:09.346 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:33:09.351 [info] request done: requestId: [3540f6fb-7999-4eab-aea6-7d69c5c81543] model deployment ID: []
+2026-08-16 15:33:09.352 [info] ccreq:c5d6e751.copilotmd | success | gpt-4o-mini-2024-07-18 | 817ms | [copilotLanguageModelWrapper]
+2026-08-16 15:33:36.776 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.71059799939394ms
+2026-08-16 15:33:54.881 [info] ccreq:b1735e53.copilotmd | success | mai-code-1.1-flash | 14664ms | [panel/editAgent]
+2026-08-16 15:33:55.561 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:33:59.067 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:33:59.071 [info] request done: requestId: [e03ab9f4-f7f3-488a-ac8a-027fbf864dfb] model deployment ID: []
+2026-08-16 15:33:59.072 [info] ccreq:ed338d00.copilotmd | success | gpt-4o-mini-2024-07-18 | 837ms | [copilotLanguageModelWrapper]
+2026-08-16 15:34:29.836 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8803740004077554ms
+2026-08-16 15:34:44.694 [info] ccreq:abe25bca.copilotmd | success | mai-code-1.1-flash | 11040ms | [panel/editAgent]
+2026-08-16 15:34:44.701 [info] [VoiceProgress] fallback request=request_56f2183c-65a6-4ef1-b49d-fd3b57daa6cb phase=editing emitted=false tools=multi_replace_string_in_file
+2026-08-16 15:34:45.405 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:34:52.456 [info] ccreq:310064f7.copilotmd | success | mai-code-1.1-flash | 2846ms | [panel/editAgent]
+2026-08-16 15:34:52.472 [info] [VoiceProgress] fallback request=request_56f2183c-65a6-4ef1-b49d-fd3b57daa6cb phase=validating emitted=false tools=run_in_terminal
+2026-08-16 15:34:53.163 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:34:56.644 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:34:56.646 [info] request done: requestId: [d680e345-8982-4343-bf5f-022a83c7d6de] model deployment ID: []
+2026-08-16 15:34:56.647 [info] ccreq:beaaedd5.copilotmd | success | gpt-4o-mini-2024-07-18 | 866ms | [copilotLanguageModelWrapper]
+2026-08-16 15:34:56.882 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:34:56.884 [info] request done: requestId: [1d7931ba-d638-4afd-9741-a600be897a54] model deployment ID: []
+2026-08-16 15:34:56.885 [info] ccreq:fc9dc23c.copilotmd | success | gpt-4o-mini-2024-07-18 | 764ms | [copilotLanguageModelWrapper]
+2026-08-16 15:35:23.855 [info] ccreq:a8f32a48.copilotmd | success | mai-code-1.1-flash | 9267ms | [panel/editAgent]
+2026-08-16 15:35:25.658 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 15:36:30.893 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.186974000185728ms
+2026-08-16 15:37:22.941 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0889139994978905ms
+2026-08-16 15:37:57.154 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7014100002124906ms
+2026-08-16 15:41:22.390 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8759580003097653ms
+2026-08-16 15:42:20.148 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6534810001030564ms
+2026-08-16 15:44:00.108 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6831360002979636ms
+2026-08-16 15:44:07.019 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 15:44:45.649 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6653930004686117ms
+2026-08-16 15:45:23.277 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7469039997085929ms
+2026-08-16 15:45:25.514 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.5025590006262064ms
+2026-08-16 15:47:14.324 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6531100003048778ms
+2026-08-16 15:47:56.802 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.933534000068903ms
+2026-08-16 15:48:02.691 [info] Fetched model metadata in 843ms d447a8e4-eadb-42a1-82ec-b29094450f7e
+2026-08-16 15:48:03.074 [info] ccreq:ff28f9c9.copilotmd | markdown
+2026-08-16 15:48:03.093 [info] [VoiceProgress] loop request=request_ab95b8f8-b705-4c01-9eda-cf3d1ef038e1 configured=true voice=false subagent=false stream=true
+2026-08-16 15:48:03.800 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:48:14.988 [info] ccreq:b81e648c.copilotmd | success | mai-code-1.1-flash | 9752ms | [panel/editAgent]
+2026-08-16 15:48:14.997 [info] [VoiceProgress] fallback request=request_ab95b8f8-b705-4c01-9eda-cf3d1ef038e1 phase=investigating emitted=false tools=read_file
+2026-08-16 15:48:15.660 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:48:18.628 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:48:18.629 [info] request done: requestId: [a1a8ee2b-f7fb-4e64-b8d7-6822318e1bb7] model deployment ID: []
+2026-08-16 15:48:18.630 [info] ccreq:302fba1d.copilotmd | success | gpt-4o-mini-2024-07-18 | 824ms | [copilotLanguageModelWrapper]
+2026-08-16 15:49:17.869 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.1362020000815392ms
+2026-08-16 15:49:52.625 [info] ccreq:73e01b9c.copilotmd | success | mai-code-1.1-flash | 31574ms | [panel/editAgent]
+2026-08-16 15:49:52.633 [info] [VoiceProgress] fallback request=request_ab95b8f8-b705-4c01-9eda-cf3d1ef038e1 phase=editing emitted=false tools=multi_replace_string_in_file
+2026-08-16 15:49:53.307 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:50:00.405 [info] ccreq:dccbbce9.copilotmd | success | mai-code-1.1-flash | 2631ms | [panel/editAgent]
+2026-08-16 15:50:01.827 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:50:05.516 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:50:05.518 [info] request done: requestId: [3a3f9602-f7e3-47b0-a140-d275fc53a8c8] model deployment ID: []
+2026-08-16 15:50:05.518 [info] ccreq:a6744aaa.copilotmd | success | gpt-4o-mini-2024-07-18 | 936ms | [copilotLanguageModelWrapper]
+2026-08-16 15:50:06.115 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:50:06.117 [info] request done: requestId: [200d59f4-12c3-4816-9bd9-e9e3bbb74efd] model deployment ID: []
+2026-08-16 15:50:06.117 [info] ccreq:ffb03e6e.copilotmd | success | gpt-4o-mini-2024-07-18 | 1102ms | [copilotLanguageModelWrapper]
+2026-08-16 15:50:06.296 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8525720005854964ms
+2026-08-16 15:50:13.371 [info] ccreq:f6ce09fe.copilotmd | success | mai-code-1.1-flash | 3988ms | [panel/editAgent]
+2026-08-16 15:50:13.631 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 15:50:22.951 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.4595260005444288ms
+2026-08-16 15:51:04.919 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7194730006158352ms
+2026-08-16 15:52:29.919 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7020920002833009ms
+2026-08-16 15:53:57.922 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6996870003640652ms
+2026-08-16 15:54:01.592 [info] [VoiceProgress] loop request=request_40985363-a210-4b5b-b1b8-79434d48fd9c configured=true voice=false subagent=false stream=true
+2026-08-16 15:54:02.319 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:54:07.142 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 15:54:07.855 [info] Logged in as lynnskywave69-ops
+2026-08-16 15:54:08.353 [info] Got Copilot token for lynnskywave69-ops
+2026-08-16 15:54:08.353 [info] Copilot Chat: 0.61.0, VS Code: 1.133.0
+2026-08-16 15:54:08.369 [info] copilot token sku: free_limited_copilot
+2026-08-16 15:54:08.369 [info] [code-referencing] Public code references are enabled.
+2026-08-16 15:54:09.167 [info] Fetched model metadata in 800ms 8829aaaa-41cc-4e24-85e6-fe65df7b00e4
+2026-08-16 15:54:09.531 [info] ccreq:ae383c01.copilotmd | markdown
+2026-08-16 15:54:16.001 [info] ccreq:505ddb61.copilotmd | success | mai-code-1.1-flash | 10028ms | [panel/editAgent]
+2026-08-16 15:54:16.012 [info] [VoiceProgress] fallback request=request_40985363-a210-4b5b-b1b8-79434d48fd9c phase=investigating emitted=false tools=read_file
+2026-08-16 15:54:16.733 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:54:19.830 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:54:19.832 [info] request done: requestId: [0b7c8c43-3864-4da9-9ccf-70cd6b3f8b3f] model deployment ID: []
+2026-08-16 15:54:19.833 [info] ccreq:5d768c79.copilotmd | success | gpt-4o-mini-2024-07-18 | 801ms | [copilotLanguageModelWrapper]
+2026-08-16 15:54:51.406 [info] ccreq:c18ccd54.copilotmd | success | mai-code-1.1-flash | 2684ms | [panel/editAgent]
+2026-08-16 15:54:51.411 [info] [VoiceProgress] fallback request=request_40985363-a210-4b5b-b1b8-79434d48fd9c phase=investigating emitted=false tools=read_file
+2026-08-16 15:54:52.113 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:55:09.411 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9045589994639158ms
+2026-08-16 15:55:18.503 [info] ccreq:64fba1c2.copilotmd | success | mai-code-1.1-flash | 6261ms | [panel/editAgent]
+2026-08-16 15:55:18.508 [info] [VoiceProgress] fallback request=request_40985363-a210-4b5b-b1b8-79434d48fd9c phase=editing emitted=false tools=multi_replace_string_in_file
+2026-08-16 15:55:19.222 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:55:20.796 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.071972000412643ms
+2026-08-16 15:55:29.164 [info] ccreq:63aa1520.copilotmd | success | mai-code-1.1-flash | 3568ms | [panel/editAgent]
+2026-08-16 15:55:29.883 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:55:33.710 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:55:33.712 [info] request done: requestId: [4e3e5b62-6cca-4f3d-be91-9f287b44eb47] model deployment ID: []
+2026-08-16 15:55:33.712 [info] ccreq:f28209d1.copilotmd | success | gpt-4o-mini-2024-07-18 | 947ms | [copilotLanguageModelWrapper]
+2026-08-16 15:55:33.829 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:55:33.830 [info] request done: requestId: [14faf3cc-442a-4189-8ff5-1cbcf45414b0] model deployment ID: []
+2026-08-16 15:55:33.831 [info] ccreq:eaf5d339.copilotmd | success | gpt-4o-mini-2024-07-18 | 712ms | [copilotLanguageModelWrapper]
+2026-08-16 15:55:40.148 [info] ccreq:1d8fc339.copilotmd | success | mai-code-1.1-flash | 3386ms | [panel/editAgent]
+2026-08-16 15:55:41.743 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 15:56:18.302 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7132319994270802ms
+2026-08-16 15:57:39.239 [info] [VoiceProgress] loop request=request_d2c39011-432c-4d96-ac36-949562953868 configured=true voice=false subagent=false stream=true
+2026-08-16 15:57:39.925 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:57:45.567 [info] ccreq:285ae7ca.copilotmd | success | mai-code-1.1-flash | 3913ms | [panel/editAgent]
+2026-08-16 15:57:45.578 [info] [VoiceProgress] fallback request=request_d2c39011-432c-4d96-ac36-949562953868 phase=investigating emitted=false tools=read_file
+2026-08-16 15:57:46.320 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:57:49.298 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:57:49.300 [info] request done: requestId: [87386dd0-7ccf-428f-8a9a-7c91495a014c] model deployment ID: []
+2026-08-16 15:57:49.301 [info] ccreq:d7d4ba4d.copilotmd | success | gpt-4o-mini-2024-07-18 | 827ms | [copilotLanguageModelWrapper]
+2026-08-16 15:58:01.251 [info] ccreq:27ceba79.copilotmd | success | mai-code-1.1-flash | 6833ms | [panel/editAgent]
+2026-08-16 15:58:01.256 [info] [VoiceProgress] fallback request=request_d2c39011-432c-4d96-ac36-949562953868 phase=investigating emitted=false tools=read_file
+2026-08-16 15:58:01.946 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:58:04.990 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:58:04.992 [info] request done: requestId: [14af28ac-cf7e-43a1-a371-5a5c9a231a8a] model deployment ID: []
+2026-08-16 15:58:04.992 [info] ccreq:8e1a3421.copilotmd | success | gpt-4o-mini-2024-07-18 | 783ms | [copilotLanguageModelWrapper]
+2026-08-16 15:58:05.851 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0209940001368523ms
+2026-08-16 15:58:18.549 [info] ccreq:18b03c01.copilotmd | success | mai-code-1.1-flash | 9582ms | [panel/editAgent]
+2026-08-16 15:58:18.556 [info] [VoiceProgress] fallback request=request_d2c39011-432c-4d96-ac36-949562953868 phase=editing emitted=false tools=multi_replace_string_in_file
+2026-08-16 15:58:19.076 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6903710002079606ms
+2026-08-16 15:58:19.211 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:58:27.409 [info] ccreq:36d81be1.copilotmd | success | mai-code-1.1-flash | 3985ms | [panel/editAgent]
+2026-08-16 15:58:28.093 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:58:31.466 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:58:31.469 [info] request done: requestId: [acb57512-04cb-42a2-a98f-993fc089d87a] model deployment ID: []
+2026-08-16 15:58:31.470 [info] ccreq:b18560f5.copilotmd | success | gpt-4o-mini-2024-07-18 | 877ms | [copilotLanguageModelWrapper]
+2026-08-16 15:58:32.034 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:58:32.036 [info] request done: requestId: [e9e98381-e6c6-42f9-bd95-b33f9e1468ab] model deployment ID: []
+2026-08-16 15:58:32.037 [info] ccreq:9fe8eff6.copilotmd | success | gpt-4o-mini-2024-07-18 | 1103ms | [copilotLanguageModelWrapper]
+2026-08-16 15:58:48.348 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.2698119999840856ms
+2026-08-16 15:58:56.289 [info] ccreq:ccaa505a.copilotmd | success | mai-code-1.1-flash | 4278ms | [panel/editAgent]
+2026-08-16 15:58:59.686 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 15:59:09.120 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7011399995535612ms
+2026-08-16 15:59:44.300 [info] [VoiceProgress] loop request=request_2de43237-e4ee-4a69-a02e-ee308cf77c8d configured=true voice=false subagent=false stream=true
+2026-08-16 15:59:45.091 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:59:49.690 [info] ccreq:04d59cf6.copilotmd | success | mai-code-1.1-flash | 2811ms | [panel/editAgent]
+2026-08-16 15:59:49.698 [info] [VoiceProgress] fallback request=request_2de43237-e4ee-4a69-a02e-ee308cf77c8d phase=investigating emitted=false tools=read_file
+2026-08-16 15:59:50.345 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 15:59:53.128 [info] message 0 returned. finish reason: [stop]
+2026-08-16 15:59:53.130 [info] request done: requestId: [7284e6ab-787c-494d-a8b0-491d0baf9050] model deployment ID: []
+2026-08-16 15:59:53.130 [info] ccreq:4e60f693.copilotmd | success | gpt-4o-mini-2024-07-18 | 788ms | [copilotLanguageModelWrapper]
+2026-08-16 15:59:57.064 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.3193839993327856ms
+2026-08-16 16:00:08.665 [info] ccreq:8fd76a40.copilotmd | success | mai-code-1.1-flash | 8659ms | [panel/editAgent]
+2026-08-16 16:00:08.671 [info] [VoiceProgress] fallback request=request_2de43237-e4ee-4a69-a02e-ee308cf77c8d phase=editing emitted=false tools=replace_string_in_file
+2026-08-16 16:00:09.345 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 16:00:19.020 [info] ccreq:a90251a6.copilotmd | success | mai-code-1.1-flash | 5539ms | [panel/editAgent]
+2026-08-16 16:00:19.700 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 16:00:23.235 [info] message 0 returned. finish reason: [stop]
+2026-08-16 16:00:23.237 [info] request done: requestId: [baef8102-4c52-49ff-91eb-4ad090b0552a] model deployment ID: []
+2026-08-16 16:00:23.238 [info] ccreq:1dddc8e0.copilotmd | success | gpt-4o-mini-2024-07-18 | 848ms | [copilotLanguageModelWrapper]
+2026-08-16 16:00:23.525 [info] message 0 returned. finish reason: [stop]
+2026-08-16 16:00:23.526 [info] request done: requestId: [09eecc58-12b2-4960-b122-f0eab7ce9188] model deployment ID: []
+2026-08-16 16:00:23.527 [info] ccreq:3192e3af.copilotmd | success | gpt-4o-mini-2024-07-18 | 763ms | [copilotLanguageModelWrapper]
+2026-08-16 16:00:55.035 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8948210002854466ms
+2026-08-16 16:01:02.316 [info] ccreq:2bb1ae8e.copilotmd | success | mai-code-1.1-flash | 3857ms | [panel/editAgent]
+2026-08-16 16:01:02.762 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 16:01:27.838 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8334869993850589ms
+2026-08-16 16:01:44.064 [info] ccreq:fad6c8ee.copilotmd | success | mai-code-1.1-flash | 45967ms | [summarizeConversationHistory]
+2026-08-16 16:02:30.736 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7246329998597503ms
+2026-08-16 16:02:41.744 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7507819999009371ms
+2026-08-16 16:03:04.956 [info] [VoiceProgress] loop request=request_07e53552-fe75-40f6-9d4a-fdc01485cce4 configured=true voice=false subagent=false stream=true
+2026-08-16 16:03:05.675 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 16:03:08.362 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8889070004224777ms
+2026-08-16 16:03:09.226 [info] ccreq:59fa6e38.copilotmd | markdown
+2026-08-16 16:03:18.211 [info] ccreq:70c5c25f.copilotmd | success | mai-code-1.1-flash | 8557ms | [panel/editAgent]
+2026-08-16 16:03:19.026 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-08-16 16:03:22.448 [info] message 0 returned. finish reason: [stop]
+2026-08-16 16:03:22.450 [info] request done: requestId: [1ca55b49-63d4-4a79-93cf-ab2a960b71aa] model deployment ID: []
+2026-08-16 16:03:22.451 [info] ccreq:f3c7cf68.copilotmd | success | gpt-4o-mini-2024-07-18 | 809ms | [copilotLanguageModelWrapper]
+2026-08-16 16:03:23.755 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7520949998870492ms
+2026-08-16 16:03:27.693 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7276990003883839ms
+2026-08-16 16:03:37.338 [info] ccreq:1119e973.copilotmd | success | mai-code-1.1-flash | 2022ms | [panel/editAgent]
+2026-08-16 16:03:37.343 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-08-16 16:04:07.703 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 16:11:20.105 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7579559991136193ms
+2026-08-16 16:14:45.363 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.1913149999454618ms
+2026-08-16 16:15:04.210 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.

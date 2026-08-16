@@ -1,0 +1,67 @@
+2026-08-16 14:09:25.056 [info] Agent Host process started successfully
+2026-08-16 14:09:25.529 [info] AgentService initialized
+2026-08-16 14:09:25.631 [info] Registering agent provider: copilotcli
+2026-08-16 14:09:25.654 [info] Registering agent provider: claude
+2026-08-16 14:09:25.724 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-08-16 14:09:25.849 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ipc-b9eb9a65-fd65-4abe-b0c0-6874d264de8f.sock
+2026-08-16 14:09:25.850 [info] [AgentHost] WebSocket server listening on /tmp/vscode-ipc-b9eb9a65-fd65-4abe-b0c0-6874d264de8f.sock
+2026-08-16 14:09:26.072 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-08-16 14:09:52.521 [info] [ProtocolServer] Initialize: clientId=d2609442-3bc4-4c28-986f-8542b942da91, protocolVersions=[0.8.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-08-16 14:09:59.287 [info] [Copilot] Listing sessions...
+2026-08-16 14:09:59.291 [info] [Copilot] Starting CopilotClient...
+2026-08-16 14:09:59.304 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-08-16 14:09:59.329 [info] [Copilot] Resolved CLI path: /vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/node_modules/@github/copilot-linux-x64/index.js
+2026-08-16 14:09:59.350 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-08-16 14:10:00.341 [info] [Copilot] CopilotClient started successfully
+2026-08-16 14:10:00.343 [info] [Copilot] Found 0 sessions
+2026-08-16 14:10:05.960 [info] [Copilot] Listing sessions...
+2026-08-16 14:10:05.971 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-08-16 14:10:05.973 [info] [Copilot] Found 0 sessions
+2026-08-16 14:10:12.920 [info] [Copilot] Auth token updated
+2026-08-16 14:10:12.921 [info] [ClaudeProxyService] listening on http://127.0.0.1:45063
+2026-08-16 14:10:12.922 [info] [Claude] Auth token updated
+2026-08-16 14:10:13.515 [info] [Copilot] Listing models...
+2026-08-16 14:10:13.843 [info] [Copilot] Enhanced (restricted) telemetry enabled for this account
+2026-08-16 14:10:14.475 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-08-16 14:10:15.062 [info] [Copilot] Found 1 models: Auto
+2026-08-16 14:10:41.593 [info] [ProtocolServer] Client disconnected: d2609442-3bc4-4c28-986f-8542b942da91, subscriptions=1
+2026-08-16 14:11:08.805 [info] [ProtocolServer] Reconnect: clientId=d2609442-3bc4-4c28-986f-8542b942da91, lastSeenSeq=17
+2026-08-16 14:14:06.073 [info] [ProtocolServer] Initialize: clientId=3390c1d1-e8fb-4747-9b78-c8e1667f5a78, protocolVersions=[0.8.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-08-16 14:14:07.303 [info] [Copilot] Listing sessions...
+2026-08-16 14:14:07.306 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-08-16 14:14:07.314 [info] [Copilot] Found 0 sessions
+2026-08-16 14:14:07.396 [info] [Copilot] Enhanced (restricted) telemetry disabled
+2026-08-16 14:14:07.396 [info] [Copilot] Auth token updated
+2026-08-16 14:14:07.397 [info] [Claude] Auth token updated
+2026-08-16 14:14:07.731 [info] [Copilot] Listing sessions...
+2026-08-16 14:14:07.732 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-08-16 14:14:07.741 [info] [Copilot] Found 0 sessions
+2026-08-16 14:14:07.873 [info] [Copilot] Listing models...
+2026-08-16 14:14:08.168 [info] [Copilot] Enhanced (restricted) telemetry enabled for this account
+2026-08-16 14:14:08.871 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-08-16 14:14:09.248 [info] [Copilot] Found 1 models: Auto
+2026-08-16 14:14:39.724 [info] [ProtocolServer] Client disconnected: 3390c1d1-e8fb-4747-9b78-c8e1667f5a78, subscriptions=1
+2026-08-16 14:15:01.245 [info] [ProtocolServer] Initialize: clientId=3406c9d7-786d-4e9a-af1d-f11e4f857f61, protocolVersions=[0.8.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-08-16 14:15:03.477 [info] [Copilot] Listing sessions...
+2026-08-16 14:15:03.484 [info] [Copilot] Enhanced (restricted) telemetry disabled
+2026-08-16 14:15:03.484 [info] [Copilot] Auth token unchanged
+2026-08-16 14:15:03.484 [info] [Claude] Auth token unchanged
+2026-08-16 14:15:03.484 [info] [Copilot] Enhanced (restricted) telemetry enabled for this account
+2026-08-16 14:15:03.493 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-08-16 14:15:03.496 [info] [Copilot] Found 0 sessions
+2026-08-16 14:15:03.860 [info] [Copilot] Listing sessions...
+2026-08-16 14:15:03.865 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-08-16 14:15:03.874 [info] [Copilot] Found 0 sessions
+2026-08-16 14:15:16.696 [info] [ProtocolServer] Client disconnected: 3406c9d7-786d-4e9a-af1d-f11e4f857f61, subscriptions=1
+2026-08-16 14:15:40.793 [info] [ProtocolServer] Initialize: clientId=801b3799-2615-4da7-906e-e14b840c8343, protocolVersions=[0.8.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-08-16 14:15:41.615 [info] [Copilot] Listing sessions...
+2026-08-16 14:15:41.620 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-08-16 14:15:41.620 [info] [Copilot] Found 0 sessions
+2026-08-16 14:15:41.648 [info] [Copilot] Enhanced (restricted) telemetry disabled
+2026-08-16 14:15:41.648 [info] [Copilot] Auth token unchanged
+2026-08-16 14:15:41.648 [info] [Claude] Auth token unchanged
+2026-08-16 14:15:41.648 [info] [Copilot] Enhanced (restricted) telemetry enabled for this account
+2026-08-16 14:15:44.211 [info] [Copilot] Listing sessions...
+2026-08-16 14:15:44.215 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-08-16 14:15:44.216 [info] [Copilot] Found 0 sessions
+2026-08-16 14:19:01.364 [info] [ProtocolServer] Client disconnected: d2609442-3bc4-4c28-986f-8542b942da91, subscriptions=1
