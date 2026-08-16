@@ -85,3 +85,211 @@
     at Oco._fileReader.onload (vscode-file://vscode-app/c:/Users/Hp/AppData/Local/Programs/Microsoft%20VS%20Code/a5b5009513/resources/app/out/vs/workbench/workbench.desktop.main.js:5416:125791)
 2026-08-16 16:15:33.382 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2026-08-16 16:15:34.895 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.985 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.986 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.986 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.986 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.986 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.986 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.986 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.986 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.986 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.986 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.986 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:20.986 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.986 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.987 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.988 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.988 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.989 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.989 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.989 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.990 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.990 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.990 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.991 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.991 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.991 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.991 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.991 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.992 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.992 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.992 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.992 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.993 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.993 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.993 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.993 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.993 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.994 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:18:21.994 [error] Error: Git error
+	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)

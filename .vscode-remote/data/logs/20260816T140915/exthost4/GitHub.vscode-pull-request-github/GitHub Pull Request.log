@@ -80,3 +80,13 @@
 2026-08-16 16:15:40.400 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
 2026-08-16 16:15:40.439 [info] [Review+1] No matching pull request metadata found locally for current branch main
 2026-08-16 16:15:40.456 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-08-16 16:20:32.875 [info] [Review+1] Skipping poll: window is not focused
+2026-08-16 16:21:25.745 [info] [Review+1] Polling for state change...
+2026-08-16 16:21:25.745 [info] [Review+1] Validate state in progress
+2026-08-16 16:21:25.745 [info] [Review+1] Validating state...
+2026-08-16 16:21:25.745 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-08-16 16:21:25.745 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /home/codespace
+2026-08-16 16:21:25.745 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-08-16 16:21:25.772 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-08-16 16:21:25.799 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-08-16 16:21:26.862 [info] [Review+1] Polling found no change. Backing off to 600s.

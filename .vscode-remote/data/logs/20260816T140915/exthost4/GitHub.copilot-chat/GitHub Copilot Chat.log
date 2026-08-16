@@ -1179,3 +1179,48 @@
 2026-08-16 16:11:20.105 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7579559991136193ms
 2026-08-16 16:14:45.363 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.1913149999454618ms
 2026-08-16 16:15:04.210 [warning] Failed to fetch tasks for ohmyzsh/ohmyzsh: Error: Sign in to GitHub to use the Cloud Agent.
+2026-08-16 16:16:03.687 [info] Logged in as lynnskywave69-ops
+2026-08-16 16:16:04.317 [info] Got Copilot token for lynnskywave69-ops
+2026-08-16 16:16:04.317 [info] Copilot Chat: 0.61.0, VS Code: 1.133.0
+2026-08-16 16:16:04.340 [info] copilot token sku: free_limited_copilot
+2026-08-16 16:16:04.340 [info] [code-referencing] Public code references are enabled.
+2026-08-16 16:16:05.100 [info] Fetched model metadata in 3440ms 02e15b30-791b-4e6c-a8dc-e29fd38a2dc0
+2026-08-16 16:16:05.482 [info] ccreq:64559097.copilotmd | markdown
+2026-08-16 16:16:06.426 [info] Request ID for failed request: 1baa39cf-8fc9-465a-b8b9-bdc03dc63e78
+2026-08-16 16:16:06.434 [error] Server error: 400 {"error":{"message":"The requested model is not supported.","code":"model_not_supported","param":"model","type":"invalid_request_error"}}
+2026-08-16 16:16:06.434 [error] Request Failed: 400 {"error":{"message":"The requested model is not supported.","code":"model_not_supported","param":"model","type":"invalid_request_error"}}
+2026-08-16 16:16:06.437 [info] ccreq:790ac84f.copilotmd | failed | gpt-5-mini | 285ms | [debugCommandIdentifier]
+2026-08-16 16:16:14.128 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6589310001581907ms
+2026-08-16 16:19:39.894 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.2243739999830723ms
+2026-08-16 16:19:56.717 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.644322999753058ms
+2026-08-16 16:20:34.897 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.1169759994372725ms
+2026-08-16 16:20:45.690 [info] ccreq:a8fac910.copilotmd | markdown
+2026-08-16 16:20:46.297 [info] ccreq:7ae25ab2.copilotmd | markdown
+2026-08-16 16:20:46.318 [warning] [relatedFiles] unknown language json
+2026-08-16 16:20:46.962 [info] [fetchCompletions] Request 1f03c509-8084-4b7d-b19d-7e3843910031 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 598.5483790002763ms
+2026-08-16 16:20:46.989 [info] ccreq:0f942352.copilotmd | markdown
+2026-08-16 16:20:48.262 [info] message 0 returned. finish reason: [stop]
+2026-08-16 16:20:48.262 [info] request done: requestId: [53af9b6d-d90f-49a9-8f01-e5cc1986e934] model deployment ID: []
+2026-08-16 16:20:48.629 [info] ccreq:9de2a886.copilotmd | success | nes-callisto-003 | 846ms | [XtabProvider]
+2026-08-16 16:20:49.104 [info] message 0 returned. finish reason: [stop]
+2026-08-16 16:20:49.105 [info] request done: requestId: [e64b042d-9e5d-4292-90ee-39212f66440b] model deployment ID: []
+2026-08-16 16:20:49.280 [info] ccreq:37906178.copilotmd | success | copilot-suggestions-prod-euporie-03 | 635ms | [nes.nextCursorPosition]
+2026-08-16 16:20:53.545 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9343750001862645ms
+2026-08-16 16:20:56.265 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.5827689999714494ms
+2026-08-16 16:21:10.458 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8539349995553493ms
+2026-08-16 16:21:36.955 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7390099996700883ms
+2026-08-16 16:21:40.278 [info] ccreq:5991d90a.copilotmd | markdown
+2026-08-16 16:21:40.279 [info] ccreq:1a8c22d3.copilotmd | markdown
+2026-08-16 16:21:40.282 [warning] [relatedFiles] unknown language yaml
+2026-08-16 16:21:40.585 [info] [fetchCompletions] Request ab1344a3-c3a6-4077-974f-3e3cb8458989 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 296.95357399992645ms
+2026-08-16 16:21:40.610 [info] ccreq:85bd1102.copilotmd | markdown
+2026-08-16 16:21:42.696 [info] message 0 returned. finish reason: [stop]
+2026-08-16 16:21:42.696 [info] request done: requestId: [2c7523cc-fe09-4711-8b8e-0c1e9b1becbc] model deployment ID: []
+2026-08-16 16:21:43.094 [info] ccreq:bf8025ce.copilotmd | success | nes-callisto-003 | 714ms | [XtabProvider]
+2026-08-16 16:21:43.552 [info] message 0 returned. finish reason: [stop]
+2026-08-16 16:21:43.553 [info] request done: requestId: [cee694f8-8d14-4173-bacc-64a369ae52a2] model deployment ID: []
+2026-08-16 16:21:43.730 [info] ccreq:acfa788c.copilotmd | success | copilot-suggestions-prod-euporie-03 | 624ms | [nes.nextCursorPosition]
+2026-08-16 16:21:44.065 [info] message 0 returned. finish reason: [stop]
+2026-08-16 16:21:44.065 [info] request done: requestId: [2c7523cc-fe09-4711-8b8e-0c1e9b1becbc] model deployment ID: []
+2026-08-16 16:21:44.071 [info] ccreq:780d5c10.copilotmd | success | nes-callisto-003 | 330ms | [XtabProvider]
+2026-08-16 16:22:20.170 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9778159996494651ms
