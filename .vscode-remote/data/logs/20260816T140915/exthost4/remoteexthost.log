@@ -293,3 +293,4 @@
 	at ChildProcess.o (/vscode/bin/linux-x64/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/main.js:66:690)
 	at ChildProcess.emit (node:events:521:24)
 	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-16 16:34:43.891 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10009
