@@ -1,0 +1,8 @@
+{
+    "name": "aqua-invest/platform",
+    "description": "AQUA Investment Platform",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    }
+}
